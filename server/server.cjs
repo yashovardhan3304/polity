@@ -156,10 +156,15 @@ app.get(/.*/, (req, res, next) => {
   res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 
-// Start listening
-app.listen(PORT, () => {
-  console.log(`Polity Master server running on http://localhost:${PORT}`);
-  if (JWT_SECRET === 'blackboard_secret_key_123') {
-    console.warn('\x1b[33m%s\x1b[0m', 'SECURITY WARNING: Using default JWT secret key. Please configure process.env.JWT_SECRET in production.');
-  }
-});
+// Run a local HTTP server only when this file is started directly. On Vercel,
+// the same Express app is imported by the serverless API function instead.
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Polity Master server running on http://localhost:${PORT}`);
+    if (JWT_SECRET === 'blackboard_secret_key_123') {
+      console.warn('\x1b[33m%s\x1b[0m', 'SECURITY WARNING: Using default JWT secret key. Please configure process.env.JWT_SECRET in production.');
+    }
+  });
+}
+
+module.exports = app;
