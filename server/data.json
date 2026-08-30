@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "usr-t12nguki0",
+      "username": "kanni22",
+      "email": "vuchidiyashovardhan@gmail.com",
+      "passwordHash": "$2b$10$d6Hzco5G/8aY/.UUJx8gB.z6zGqKJQiPu9OIF./vHF.6ODmdEeffa",
+      "createdAt": "2026-08-30T15:20:52.468Z"
+    },
+    {
+      "id": "usr-csfu23zm3",
+      "username": "test_student",
+      "email": "test_7002eqa@example.com",
+      "passwordHash": "$2b$10$pK7fHOIItq0kOS/ehbIY3O5gweomIpozOuhzKBw.uwNWjAPQnrzW6",
+      "createdAt": "2026-08-30T15:56:15.131Z"
+    }
+  ],
+  "progress": [
+    {
+      "completedTopics": [
+        "Emergency",
+        "Historical Background"
+      ],
+      "savedLessons": [],
+      "savedArticles": [],
+      "savedTraps": [],
+      "savedCards": [],
+      "masteredCards": [],
+      "streak": 1,
+      "quizPoints": 0,
+      "weakTopics": [],
+      "userId": "usr-t12nguki0",
+      "updatedAt": "2026-08-30T16:02:37.710Z"
+    },
+    {
+      "userId": "usr-csfu23zm3",
+      "completedTopics": [
+        "Topic 1",
+        "Topic 2"
+      ],
+      "savedLessons": [],
+      "savedArticles": [],
+      "savedTraps": [],
+      "savedCards": [],
+      "masteredCards": [],
+      "streak": 5,
+      "quizPoints": 150,
+      "weakTopics": [],
+      "updatedAt": "2026-08-30T15:56:15.274Z"
+    }
+  ]
+}

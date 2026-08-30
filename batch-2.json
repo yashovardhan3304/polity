@@ -1,0 +1,767 @@
+[
+  {
+    "id": "q-88",
+    "question": "With reference to the definition of 'State' under Article 12 of the Indian Constitution, consider the following statements:\n1. It includes the Government and Parliament of India, as well as the Government and Legislature of each of the States.\n2. Statutory and non-statutory authorities like LIC, ONGC, and SAIL fall within the definition of State.\n3. Private bodies or agencies working as an instrument of the State come under the ambit of Article 12.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All three statements are correct under Article 12 and Supreme Court interpretations (e.g., Ajay Hasia and Sukhdev Singh cases). 'State' includes: (1) Central government and Parliament, (2) State governments and legislatures, (3) Local authorities (municipalities, panchayats, district boards), and (4) Other statutory and non-statutory bodies like LIC, ONGC, SAIL, IFC. Furthermore, even private bodies or agencies working as an instrument of the State come under the definition of State under Article 12.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "12",
+    "examTrap": "Aspirants often think only purely governmental and statutory bodies qualify. Private entities performing public duties as state instrumentalities also fall under Article 12."
+  },
+  {
+    "id": "q-89",
+    "question": "Consider the following statements regarding Article 13 and doctrines related to Judicial Review:\n1. The 'Doctrine of Eclipse' applies to pre-constitutional laws that are inconsistent with Fundamental Rights, rendering them dormant but not dead.\n2. The 'Doctrine of Severability' provides that if an unconstitutional provision of a statute can be separated from the valid portion, only the invalid provision is struck down.\n3. Under Article 13(3), the term 'law' includes ordinances, orders, bye-laws, rules, regulations, and customs having the force of law, but excludes constitutional amendments.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All three statements are correct:\n- Statement 1: Under the Doctrine of Eclipse (Bhikaji Narain case), pre-constitutional laws violating FRs are not completely dead from inception (void ab initio); they are merely overshadowed/eclipsed by FRs and can become operative again if the relevant FR is amended.\n- Statement 2: Under the Doctrine of Severability (A.K. Gopalan case), only the invalid or unconstitutional parts of a law are struck down if they can be separated from the rest of the statute.\n- Statement 3: Article 13(3) defines 'law' widely to include ordinances, bye-laws, rules, regulations, notifications, and customs. The Supreme Court in the Kesavananda Bharati case (1973) held that a constitutional amendment is not an ordinary 'law' under Article 13(2), though it can still be challenged on the touchstone of the Basic Structure Doctrine.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Judicial Review",
+    "article": "13",
+    "examTrap": "Remember that ordinary laws can be struck down under Article 13 for violating Part III, but Constitutional Amendment Acts are evaluated under the Basic Structure Doctrine."
+  },
+  {
+    "id": "q-90",
+    "question": "Under Article 14 of the Indian Constitution, the concept of 'Equal Protection of the Laws' is borrowed from which country's constitution?",
+    "options": [
+      "United Kingdom",
+      "United States of America",
+      "Canada",
+      "Ireland"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Equal Protection of the Laws' is a positive concept borrowed from Section 1 of the 14th Amendment of the US Constitution. It emphasizes that equals should be treated equally under equal circumstances. On the other hand, 'Equality before Law' is a negative concept of British origin (A.V. Dicey's Rule of Law) denoting the absence of any special privilege in favor of any individual.",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Fundamental Rights",
+    "article": "14",
+    "examTrap": "Do not swap the concepts: 'Equality before Law' is British (negative); 'Equal Protection of the Laws' is American (positive)."
+  },
+  {
+    "id": "q-91",
+    "question": "Consider the following statements regarding Article 15 of the Indian Constitution:\n1. Article 15 prohibits discrimination by the State against any citizen on grounds ONLY of religion, race, caste, sex, place of birth or any of them.\n2. The 103rd Constitutional Amendment Act added Article 15(6) to enable the State to make special provisions for the advancement of Economically Weaker Sections (EWS).\n3. The provision of Article 15(2) regarding access to shops, public restaurants, and wells is enforceable against both the State and private individuals.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: Article 15(1) uses the word 'only', meaning discrimination on grounds other than religion, race, caste, sex, or place of birth (e.g., residence or educational qualification) is not prohibited per se.\n- Statement 2: The 103rd Constitutional Amendment Act, 2019 added Article 15(6) and 16(6) to provide up to 10% reservation for Economically Weaker Sections (EWS).\n- Statement 3: Article 15(2) guarantees non-discriminatory access to shops, public restaurants, hotels, and places of public entertainment, and applies against both the State and private individuals.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "15",
+    "examTrap": "Article 15(1) protects only against State action, whereas Article 15(2) protects citizens against discrimination by both the State and private individuals."
+  },
+  {
+    "id": "q-92",
+    "question": "With reference to Article 16 and reservations in public employment, consider the following statements:\n1. Unlike Article 15, Article 16 includes 'descent' and 'residence' among the prohibited grounds of discrimination.\n2. In the Indra Sawhney case (1992), the Supreme Court ruled that the total reserved quota should not exceed 50% except in extraordinary situations.\n3. The 77th Constitutional Amendment Act, 1995 introduced Article 16(4A) to provide reservation in promotions for SCs and STs.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: Article 15 prohibits discrimination on 5 grounds (religion, race, caste, sex, place of birth). Article 16(2) adds 2 more grounds: 'descent' and 'residence' (total 7 grounds).\n- Statement 2: In Indra Sawhney (1992), the Supreme Court upheld 27% reservation for OBCs, excluded the 'creamy layer', and capped total reservation at 50%.\n- Statement 3: The 77th Amendment (1995) added Article 16(4A) permitting reservation in promotions for SCs and STs, which was further modified by the 85th Amendment (2001) for consequential seniority.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "16",
+    "examTrap": "Remember the two extra grounds in Article 16 that are NOT found in Article 15: 'descent' and 'residence'."
+  },
+  {
+    "id": "q-93",
+    "question": "Which of the following statements regarding Article 17 (Abolition of Untouchability) is NOT correct?",
+    "options": [
+      "The term 'Untouchability' has been clearly defined in the Constitution of India.",
+      "Article 17 is an absolute right with no constitutional exceptions.",
+      "The right under Article 17 is available against both the State and private individuals.",
+      "Parliament enacted the Protection of Civil Rights Act, 1955 to enforce this right."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statement 0 is incorrect (and hence the correct answer): The term 'Untouchability' is neither defined in the Constitution of India nor in the Protection of Civil Rights Act, 1955. The Mysore High Court clarified that it refers to the historical social disability imposed on certain classes of people by birth, not the physical untouchability of quarantined persons. Article 17 is absolute, has no exceptions, applies against private individuals, and is enforced through the Protection of Civil Rights Act, 1955.",
+    "difficulty": "Basic",
+    "examType": "General competitive exams",
+    "topic": "Fundamental Rights",
+    "article": "17",
+    "examTrap": "The word 'Untouchability' is NOT defined anywhere in the Constitution or any statute."
+  },
+  {
+    "id": "q-94",
+    "question": "In the landmark Balaji Raghavan case (1996), what did the Supreme Court rule regarding National Awards such as Bharat Ratna and Padma awards?",
+    "options": [
+      "They are titles within the meaning of Article 18(1) and are unconstitutional.",
+      "They are valid decorations and do not amount to titles under Article 18(1), provided they are not used as prefixes or suffixes to names.",
+      "Only military awards can be conferred, while civilian awards are unconstitutional.",
+      "They violate the principle of equality guaranteed under Article 14."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Balaji Raghavan v. Union of India (1996), the Supreme Court upheld the constitutional validity of National Awards (Bharat Ratna, Padma Vibhushan, Padma Bhushan, Padma Shri). The Court ruled that they do not amount to 'titles' within the meaning of Article 18(1) because equality does not mandate that merit and public service should not be recognized. However, they must NOT be used as prefixes or suffixes to the names of the recipients; if used, the recipient forfeits the award.",
+    "difficulty": "Exam",
+    "examType": "SSC-style",
+    "topic": "Fundamental Rights",
+    "article": "18",
+    "examTrap": "National awards are valid decorations, but using them as titles (prefix/suffix like 'Padma Shri X') is prohibited and leads to forfeiture."
+  },
+  {
+    "id": "q-95",
+    "question": "Consider the following statements regarding the freedoms guaranteed under Article 19(1) of the Indian Constitution:\n1. The right to freedom of speech and expression includes the freedom of the press and the right to remain silent.\n2. 'Public order' was added as a ground for reasonable restriction under Article 19(2) by the 1st Constitutional Amendment Act, 1951.\n3. The right to form associations under Article 19(1)(c) includes the fundamental right to strike and declare lockouts.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect:\n- Statement 1: Article 19(1)(a) encompasses freedom of the press (Indian Express Newspapers case) and the right to remain silent (Bijoe Emmanuel case).\n- Statement 2: The 1st Constitutional Amendment Act, 1951 added three grounds of restriction under Article 19(2): 'public order', 'friendly relations with foreign states', and 'incitement to an offence'.\n- Statement 3: The Supreme Court has repeatedly held (e.g., in TK Rangarajan case) that the right to strike is not a fundamental right; it is only a statutory or trade union right.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "19",
+    "examTrap": "The right to form trade unions is a Fundamental Right (Art 19(1)(c)), but the right to strike is NOT a Fundamental Right."
+  },
+  {
+    "id": "q-96",
+    "question": "In Anuradha Bhasin v. Union of India (2020), the Supreme Court of India recognized access to the Internet under which Fundamental Right?",
+    "options": [
+      "Article 14",
+      "Article 19(1)(a) and Article 19(1)(g)",
+      "Article 25",
+      "Article 32"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the Anuradha Bhasin case (2020), the Supreme Court ruled that freedom of speech and expression through the medium of the internet is integral to Article 19(1)(a), and the freedom to practice any profession or carry on any trade, business, or occupation over the internet is protected under Article 19(1)(g). Any suspension of internet services must satisfy the test of necessity and proportionality under Article 19(2) and 19(6).",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Fundamental Rights",
+    "article": "19",
+    "examTrap": "Internet access is not an independent stand-alone article; it is recognized as a medium through which rights under Article 19(1)(a) and 19(1)(g) are exercised."
+  },
+  {
+    "id": "q-97",
+    "question": "Consider the following statements regarding the protections under Article 20 of the Indian Constitution:\n1. Protection against ex-post facto laws (Article 20(1)) is applicable to criminal laws as well as civil liabilities and tax laws.\n2. Protection against double jeopardy (Article 20(2)) is available in proceedings before a court of law or judicial tribunal, but not before departmental or administrative authorities.\n3. In Selvi v. State of Karnataka (2010), the Supreme Court held that involuntary administration of narco-analysis and polygraph tests violates Article 20(3).\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 2 and 3 are correct. Statement 1 is incorrect:\n- Statement 1: Protection against ex-post facto laws applies ONLY to criminal laws (penal laws), NOT to civil laws or tax laws. Retrospective taxation or civil liability is constitutionally valid.\n- Statement 2: Protection against double jeopardy (no person shall be prosecuted and punished for the same offence more than once) applies only to judicial prosecution before courts/tribunals, not to administrative or departmental inquiries.\n- Statement 3: In Selvi (2010), the Supreme Court held that compulsory narco-analysis, polygraph, and BEAP tests violate the right against self-incrimination under Article 20(3) and personal liberty under Article 21.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "20",
+    "examTrap": "Ex-post facto protection is strictly limited to criminal laws. Retrospective taxation or civil liability is constitutionally valid."
+  },
+  {
+    "id": "q-98",
+    "question": "Consider the following statements regarding the evolution of Article 21 of the Indian Constitution:\n1. In the A.K. Gopalan case (1950), the Supreme Court adopted a narrow interpretation of Article 21, holding that 'procedure established by law' did not require the law to be just, fair, and reasonable.\n2. In the Maneka Gandhi case (1978), the Supreme Court overruled the Gopalan judgment and introduced the American concept of 'due process of law' into Article 21.\n3. Articles 20 and 21 cannot be suspended even during the operation of a National Emergency under Article 352.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: In A.K. Gopalan (1950), the Court applied a literal interpretation, protecting personal liberty only against arbitrary executive action, not legislative action.\n- Statement 2: In Maneka Gandhi (1978), the Court ruled that the procedure depriving personal liberty must be 'just, fair, and reasonable', effectively reading substantive 'due process' into Article 21.\n- Statement 3: The 44th Constitutional Amendment Act, 1978 amended Article 359 to provide that the right to move any court for the enforcement of the rights conferred by Articles 20 and 21 cannot be suspended during an Emergency.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "21",
+    "examTrap": "The 44th Amendment specifically insulated Articles 20 and 21 from suspension under Article 359 during any proclamation of National Emergency."
+  },
+  {
+    "id": "q-99",
+    "question": "Match the following landmark Supreme Court judgments with the specific rights derived under Article 21:\n1. K.S. Puttaswamy case (2017) - A. Right to Livelihood\n2. Olga Tellis case (1985) - B. Right to Privacy\n3. Common Cause case (2018) - C. Right to die with dignity (Passive Euthanasia)\nWhich of the following is the correct matching pair?",
+    "options": [
+      "1-B, 2-A, 3-C",
+      "1-A, 2-B, 3-C",
+      "1-C, 2-A, 3-B",
+      "1-B, 2-C, 3-A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct matching is:\n- 1-B: K.S. Puttaswamy v. Union of India (2017) - 9-judge bench unanimously affirmed that Right to Privacy is a Fundamental Right under Article 21.\n- 2-A: Olga Tellis v. Bombay Municipal Corporation (1985) - Right to Livelihood is an essential facet of Right to Life under Article 21.\n- 3-C: Common Cause v. Union of India (2018) - Right to die with dignity encompasses passive euthanasia and living wills.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Fundamental Rights",
+    "article": "21",
+    "examTrap": "Active euthanasia is illegal in India; only passive euthanasia with strict guidelines and advance medical directives (living wills) is permitted."
+  },
+  {
+    "id": "q-100",
+    "question": "The Right to Education was inserted as a Fundamental Right under Article 21A by which Constitutional Amendment Act?",
+    "options": [
+      "42nd Constitutional Amendment Act, 1976",
+      "44th Constitutional Amendment Act, 1978",
+      "86th Constitutional Amendment Act, 2002",
+      "91st Constitutional Amendment Act, 2003"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 86th Constitutional Amendment Act, 2002 inserted Article 21A into the Constitution, making free and compulsory education for children between the ages of 6 and 14 years a Fundamental Right. It also modified Article 45 in DPSP and added an 11th Fundamental Duty under Article 51A(k).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Fundamental Rights",
+    "article": "21A",
+    "examTrap": "The 86th Amendment in 2002 made a tripartite change: added Article 21A (FR), amended Article 45 (DPSP), and added 51A(k) (FD)."
+  },
+  {
+    "id": "q-101",
+    "question": "Consider the following statements regarding Article 22 and Preventive Detention in India:\n1. Protection against arrest under Article 22(1) and 22(2) is available to ordinary citizens but NOT to enemy aliens or persons arrested under preventive detention laws.\n2. A person arrested under ordinary criminal law must be produced before the nearest magistrate within 24 hours of arrest, excluding journey time.\n3. Preventive detention of a person cannot exceed three months unless an Advisory Board consisting of persons qualified to be High Court judges reports sufficient cause.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: Under Article 22(3), ordinary procedural safeguards (right to know grounds, consult lawyer, production before magistrate within 24 hours) do not apply to enemy aliens and preventive detainees.\n- Statement 2: Article 22(2) mandates production before a magistrate within 24 hours (excluding transit time).\n- Statement 3: Article 22(4) specifies that preventive detention cannot exceed 3 months without approval from an Advisory Board (although the 44th Amendment proposed reducing it to 2 months, that clause was never brought into force, so 3 months remains the operative constitutional limit).",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "22",
+    "examTrap": "Although the 44th Amendment reduced detention without Advisory Board approval to 2 months, that specific provision has never been officially notified by the executive, so the operational constitutional period is still 3 months."
+  },
+  {
+    "id": "q-102",
+    "question": "Article 23 of the Indian Constitution prohibits 'traffic in human beings and begar'. What exception does Article 23(2) provide to this rule?",
+    "options": [
+      "Compulsory military service during wartime only",
+      "Compulsory service for public purposes without discrimination on grounds only of religion, race, caste or class",
+      "Forced labor in prisons for convicted criminals",
+      "Mandatory agricultural labor during food emergencies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Under Article 23(2), nothing in Article 23 prevents the State from imposing compulsory service for public purposes (such as military conscription or social service), provided that in imposing such service, the State does not make any discrimination on grounds ONLY of religion, race, caste or class or any of them. Notice that 'sex' is NOT mentioned among the prohibited grounds in 23(2).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Fundamental Rights",
+    "article": "23",
+    "examTrap": "In Article 23(2), the State cannot discriminate on religion, race, caste, or class, but 'sex' is omitted (allowing, for instance, conscription of men only)."
+  },
+  {
+    "id": "q-103",
+    "question": "With reference to the Freedom of Religion under Article 25 of the Indian Constitution, consider the following statements:\n1. It guarantees freedom of conscience and the right to freely profess, practice, and propagate religion to all persons (both citizens and foreigners).\n2. The right to propagate religion includes the fundamental right to forcibly convert another person to one's own religion.\n3. The freedom of religion is subject to public order, morality, health, and other provisions of Part III.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect:\n- Statement 1: Article 25 applies to all persons (citizens as well as non-citizens).\n- Statement 2: In Rev. Stainislaus v. State of MP (1977), the Supreme Court ruled that Article 25 grants the right to transmit or spread one's religion by exposition of its tenets, but does NOT include the right to convert another person by fraud, force, or allurement, as it would impinge on the other person's 'freedom of conscience'.\n- Statement 3: Article 25 explicitly subjects religious rights to public order, morality, health, and other fundamental rights.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "25",
+    "examTrap": "The right to 'propagate' religion means to explain and disseminate religious beliefs; it does NOT include a right to convert someone forcibly or fraudulently."
+  },
+  {
+    "id": "q-104",
+    "question": "To qualify as a 'Religious Denomination' under Article 26 of the Constitution of India, which of the following criteria must be satisfied according to the Supreme Court?",
+    "options": [
+      "It must be recognized by the Ministry of Minority Affairs.",
+      "It must have a collection of individuals with a common system of beliefs, a common organization, and a distinctive name.",
+      "It must have existed in India prior to the year 1950.",
+      "It must have a minimum following of at least 1% of the national population."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the Sri Shirur Mutt case (1954), the Supreme Court held that to be recognized as a 'Religious Denomination' under Article 26, three conditions must be satisfied: (1) It must be a collection of individuals who have a system of beliefs (doctrines) which they regard as conducive to their spiritual well-being; (2) A common organization; and (3) Designation by a distinctive name. For instance, the Ramakrishna Mission and Anand Marga are denominations, whereas Aurobindo Society is not.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Fundamental Rights",
+    "article": "26",
+    "examTrap": "Article 25 protects an individual's right to religion, while Article 26 protects collective rights of religious denominations or sections thereof."
+  },
+  {
+    "id": "q-105",
+    "question": "Consider the following statements regarding Articles 27 and 28 of the Indian Constitution:\n1. Article 27 prohibits the State from levying any tax where the proceeds are specifically appropriated for the promotion or maintenance of any particular religion.\n2. Article 27 prohibits the levy of a 'fee' to provide secular services or regulation of religious institutions.\n3. In educational institutions wholly maintained out of State funds, no religious instruction can be imparted under Article 28(1).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect:\n- Statement 1: Article 27 bars the State from spending public tax money to patronize or promote any particular religion (secular character).\n- Statement 2: Article 27 prohibits only taxes, NOT fees. A fee can be levied on pilgrims or religious trusts to provide safety, sanitation, or administrative regulation (e.g., pilgrim fees).\n- Statement 3: Article 28 classifies institutions into four types. In institutions wholly maintained by the State, religious instruction is completely prohibited.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "28",
+    "examTrap": "Article 27 prohibits taxes (compulsory exaction for general public revenue) for religious promotion, but does NOT prohibit fees (payment for specific services/regulations)."
+  },
+  {
+    "id": "q-106",
+    "question": "Consider the following statements regarding the Cultural and Educational Rights of Minorities under Articles 29 and 30:\n1. Under Article 30(1), the right to establish and administer educational institutions is granted to both religious and linguistic minorities.\n2. The term 'minority' is defined in Article 30 of the Indian Constitution as any community having less than 50% population in the country.\n3. In the T.M.A. Pai Foundation case (2002), the Supreme Court ruled that minority status under Article 30 is determined with reference to the population of the State concerned, not the whole of India.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect:\n- Statement 1: Article 30(1) guarantees the right to all minorities, whether based on religion or language, to establish and administer educational institutions of their choice.\n- Statement 2: The Constitution does NOT define the term 'minority' anywhere.\n- Statement 3: In T.M.A. Pai Foundation v. State of Karnataka (2002), an 11-judge bench held that since reorganization of States was done on linguistic lines, the unit for determining religious and linguistic minority status is the State, not the whole of India.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "30",
+    "examTrap": "The word 'Minority' is NOT defined in the Constitution. Moreover, minority status is assessed state-wise, not nationally."
+  },
+  {
+    "id": "q-107",
+    "question": "With reference to Article 31C of the Indian Constitution, consider the following statements:\n1. Article 31C was inserted by the 25th Constitutional Amendment Act, 1971 to protect laws implementing Article 39(b) and 39(c) from being challenged under Articles 14 and 19.\n2. In the Kesavananda Bharati case (1973), the Supreme Court struck down the clause of Article 31C that barred judicial review of such laws.\n3. In the Minerva Mills case (1980), the Supreme Court upheld the 42nd Amendment's extension of Article 31C to cover all Directive Principles.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect:\n- Statement 1: The 25th Amendment (1971) added Article 31C: no law giving effect to DPSPs under Article 39(b) and 39(c) could be void on grounds of violating Articles 14, 19, or 31.\n- Statement 2: In Kesavananda Bharati (1973), the Supreme Court upheld the first part of Art 31C but struck down the second part ('and no law containing a declaration that it is to give effect to such policy shall be called in question in any court') because judicial review is an essential basic feature.\n- Statement 3: The 42nd Amendment (1976) expanded Article 31C to give supremacy to ALL DPSPs over Articles 14 and 19. In Minerva Mills (1980), the Supreme Court struck down this expansion as unconstitutional, restoring Article 31C only to Article 39(b) and (c).",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "31C",
+    "examTrap": "Article 31C shields ONLY laws implementing Article 39(b) and 39(c), NOT all DPSPs. Minerva Mills struck down the blanket immunity created by the 42nd Amendment."
+  },
+  {
+    "id": "q-108",
+    "question": "Consider the following statements regarding Article 33, 34, and 35 of Part III of the Indian Constitution:\n1. Under Article 33, Parliament has the power to restrict or abrogate the Fundamental Rights of members of the Armed Forces, paramilitary forces, and intelligence agencies.\n2. Under Article 34, martial law can be declared in any area within the territory of India under specific provisions explicitly detailed in the Constitution.\n3. Under Article 35, the power to make laws to give effect to certain specified Fundamental Rights (such as Articles 16(3), 32(3), 33, and 34) rests exclusively with Parliament and not with State Legislatures.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect:\n- Statement 1: Article 33 empowers Parliament (only Parliament, not state legislatures) to modify FRs for armed forces, police forces, intelligence agencies, etc., to ensure proper discharge of duties and maintenance of discipline.\n- Statement 2: The Constitution mentions 'Martial Law' in Article 34, but it does NOT define Martial Law or specify explicit conditions for its declaration (it is borrowed from English common law).\n- Statement 3: Article 35 ensures uniformity throughout India by vesting the legislative power for prescribing punishments for FR violations (e.g., Art 17, 23) and modifying FRs (Art 16(3), 32(3), 33, 34) exclusively in Parliament.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Rights",
+    "article": "35",
+    "examTrap": "'Martial Law' has no specific definition or detailed grounds in the Constitution; it is distinct from National Emergency (Article 352)."
+  },
+  {
+    "id": "q-109",
+    "question": "Which of the following sets of Fundamental Rights is available EXCLUSIVELY to Indian citizens and NOT to foreign nationals?",
+    "options": [
+      "Articles 14, 20, 21, 25",
+      "Articles 15, 16, 19, 29, 30",
+      "Articles 19, 20, 21, 21A, 22",
+      "Articles 14, 15, 16, 17, 18"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Articles 15, 16, 19, 29, and 30 are available exclusively to citizens of India. All other Fundamental Rights (Articles 14, 20, 21, 21A, 22, 23, 24, 25, 26, 27, 28) are available to all persons (both citizens and foreign nationals, except enemy aliens).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Fundamental Rights",
+    "article": "19",
+    "examTrap": "Memorize the five citizen-only articles: 15, 16, 19, 29, and 30."
+  },
+  {
+    "id": "q-110",
+    "question": "Which Article of the Constitution declares that the Directive Principles of State Policy are 'fundamental in the governance of the country' and it shall be the duty of the State to apply these principles in making laws?",
+    "options": [
+      "Article 36",
+      "Article 37",
+      "Article 38",
+      "Article 39"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Article 37 contains two critical principles: (1) The provisions contained in Part IV shall not be enforceable by any court (non-justiciable), and (2) Nevertheless, the principles therein laid down are 'fundamental in the governance of the country' and it shall be the duty of the State to apply them in making laws.",
+    "difficulty": "Basic",
+    "examType": "General competitive exams",
+    "topic": "DPSP",
+    "article": "37",
+    "examTrap": "While Article 37 makes DPSPs non-justiciable, it also explicitly declares them 'fundamental in the governance of the country'."
+  },
+  {
+    "id": "q-111",
+    "question": "Consider the following Directive Principles of State Policy:\n1. To organize village panchayats and endow them with necessary powers (Article 40)\n2. To promote cottage industries on an individual or co-operative basis in rural areas (Article 43)\n3. To secure a Uniform Civil Code for all citizens throughout the territory of India (Article 44)\n4. To prohibit the consumption of intoxicating drinks and of drugs injurious to health (Article 47)\nWhich of the above are based on GANDHIAN ideology?",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 2 and 4 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gandhian Principles represent the program of reconstruction enunciated by Mahatma Gandhi during the national movement. They include: Article 40 (Village Panchayats), Article 43 (Cottage Industries), Article 43B (Cooperative societies), Article 46 (Educational and economic interests of SCs, STs, and weaker sections), Article 47 (Prohibition of intoxicating drinks and drugs), and Article 48 (Prohibition of slaughter of cows, calves, and draught cattle). Article 44 (Uniform Civil Code) is a Liberal-Intellectual principle, not a Gandhian principle.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "DPSP",
+    "article": "40",
+    "examTrap": "Article 44 (UCC) and Article 50 (Separation of Judiciary) belong to the Liberal-Intellectual category, not Gandhian."
+  },
+  {
+    "id": "q-112",
+    "question": "With reference to Article 39(b) and Article 39(c) of the Indian Constitution, consider the following statements:\n1. Article 39(b) directs the State to secure that the ownership and control of the material resources of the community are so distributed as best to subserve the common good.\n2. Article 39(c) directs the State to ensure that the operation of the economic system does not result in the concentration of wealth and means of production to the common detriment.\n3. Laws enacted to give effect to Article 39(b) and 39(c) cannot be challenged on the ground of inconsistency with Article 14 or Article 19.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statements 1 and 2: These are exact definitions of Socialistic Directives under Article 39(b) (distribution of material resources) and Article 39(c) (prevention of concentration of wealth).\n- Statement 3: Under Article 31C (as upheld in Kesavananda Bharati and Minerva Mills), laws made to implement Article 39(b) and Article 39(c) enjoy constitutional immunity against challenges based on Article 14 (Equality) and Article 19 (Six Freedoms).",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "DPSP",
+    "article": "39",
+    "examTrap": "Only 39(b) and 39(c) enjoy this unique constitutional priority over Articles 14 and 19 under Article 31C."
+  },
+  {
+    "id": "q-113",
+    "question": "Equal justice and free legal aid to the poor was added to the Directive Principles under Article 39A by which Constitutional Amendment?",
+    "options": [
+      "24th Amendment Act, 1971",
+      "42nd Amendment Act, 1976",
+      "44th Amendment Act, 1978",
+      "73rd Amendment Act, 1992"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 42nd Constitutional Amendment Act, 1976 added Article 39A to the Constitution, directing the State to provide free legal aid to ensure that opportunities for securing justice are not denied to any citizen by reason of economic or other disabilities. Pursuant to this, Parliament passed the Legal Services Authorities Act, 1987 (establishing NALSA).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "DPSP",
+    "article": "39A",
+    "examTrap": "Four new DPSPs were added by the 42nd Amendment: 39(f), 39A, 43A, and 48A."
+  },
+  {
+    "id": "q-114",
+    "question": "Consider the following statements regarding the Uniform Civil Code (Article 44):\n1. Article 44 directs the State to endeavor to secure for the citizens a Uniform Civil Code throughout the territory of India.\n2. In the Shah Bano case (1985) and Sarla Mudgal case (1995), the Supreme Court emphasized the need for a Uniform Civil Code.\n3. Goa is the only Indian state that has continuously retained a Portuguese-derived Common Civil Code since its liberation.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: Article 44 is located in Part IV (DPSP) under Liberal-Intellectual principles.\n- Statement 2: In Shah Bano (1985), Sarla Mudgal (1995), and John Vallamattom (2003), the SC reiterated that a UCC would help national integration by removing ideological contradictions.\n- Statement 3: Goa has retained the Portuguese Civil Code of 1867, making it the only state with a uniform family law applying to all religious communities until Uttarakhand passed its UCC Bill in 2024.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "DPSP",
+    "article": "44",
+    "examTrap": "Goa's civil code originates from the Portuguese Civil Code of 1867, which was continued after Goa's liberation in 1961."
+  },
+  {
+    "id": "q-115",
+    "question": "Article 43B, which directs the State to promote voluntary formation, autonomous functioning, democratic control, and professional management of Co-operative Societies, was inserted by which Amendment Act?",
+    "options": [
+      "86th Amendment Act, 2002",
+      "91st Amendment Act, 2003",
+      "97th Amendment Act, 2011",
+      "103rd Amendment Act, 2019"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 97th Constitutional Amendment Act, 2011 gave constitutional status and protection to cooperative societies. It made three changes: (1) made the right to form cooperatives a Fundamental Right under Article 19(1)(c), (2) added a new DPSP on promotion of cooperative societies under Article 43B, and (3) added Part IXB (The Co-operative Societies).",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "DPSP",
+    "article": "43B",
+    "examTrap": "The 97th Amendment affected three areas: Art 19(1)(c) (FR), Art 43B (DPSP), and Part IXB (Articles 243ZH to 243ZT)."
+  },
+  {
+    "id": "q-116",
+    "question": "Which Article of the Constitution of India provides for the 'Separation of Judiciary from the Executive in the public services of the State'?",
+    "options": [
+      "Article 48",
+      "Article 49",
+      "Article 50",
+      "Article 51"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Article 50 directs the State to take steps to separate the judiciary from the executive in the public services of the State. This principle aims to ensure judicial independence and prevent executive interference in judicial administration, implemented across states via the Code of Criminal Procedure, 1973 (CrPC).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "DPSP",
+    "article": "50",
+    "examTrap": "Remember the sequence: 48 (Agriculture/Animal Husbandry), 48A (Environment), 49 (Monuments), 50 (Separation of Judiciary), 51 (International Peace)."
+  },
+  {
+    "id": "q-117",
+    "question": "Apart from Part IV, certain directives are located in other Parts of the Constitution. Consider the following statements:\n1. Article 350A (Part XVII) directs States to provide adequate facilities for instruction in the mother-tongue at the primary stage of education to children belonging to linguistic minority groups.\n2. Article 351 (Part XVII) directs the Union to promote the spread of the Hindi language and develop it as a medium of expression for all elements of composite culture.\n3. Article 335 (Part XVI) provides that the claims of SCs and STs shall be taken into consideration consistently with the maintenance of efficiency of administration in public appointments.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct. These three provisions are known as 'Directives outside Part IV' (Non-Part IV Directives). Like Part IV directives, they are non-justiciable in nature and impose a constitutional duty upon the Union and State governments:\n- Art 350A: Primary instruction in mother tongue for linguistic minorities.\n- Art 351: Duty of the Union to develop and promote the Hindi language.\n- Art 335: Claims of SC/ST to services subject to administrative efficiency.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "DPSP",
+    "article": "350A",
+    "examTrap": "Candidates often forget that directives to the State exist outside Part IV in Articles 335, 350A, and 351."
+  },
+  {
+    "id": "q-118",
+    "question": "Consider the following statements regarding the judicial evolution of the relationship between Fundamental Rights (FRs) and Directive Principles of State Policy (DPSPs):\n1. In the Champakam Dorairajan case (1951), the Supreme Court ruled that in case of any conflict between FRs and DPSPs, the FRs would prevail.\n2. In the Golaknath case (1967), the Supreme Court held that Parliament cannot amend Fundamental Rights even to implement DPSPs.\n3. In the Minerva Mills case (1980), the Supreme Court observed that the Indian Constitution is founded on the bedrock of the balance between Part III and Part IV.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: In Champakam Dorairajan (1951), the Court held DPSPs are subsidiary to FRs; FRs prevail over DPSPs.\n- Statement 2: In Golaknath (1967), the Court held that FRs have a transcendental position and cannot be taken away or abridged to implement DPSPs.\n- Statement 3: In Minerva Mills (1980), Justice Chandrachud famously observed that the Constitution is founded on the bedrock of the balance between Part III and Part IV, and giving absolute primacy to one over the other disturbs the harmony of the Constitution.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "DPSP",
+    "article": "37",
+    "examTrap": "The harmony and balance between Fundamental Rights and Directive Principles is an essential feature of the 'Basic Structure' of the Constitution (Minerva Mills)."
+  },
+  {
+    "id": "q-119",
+    "question": "Which of the following Directives were inserted into Part IV by the 42nd Constitutional Amendment Act, 1976?\n1. To secure opportunities for the healthy development of children (Article 39(f))\n2. To promote equal justice and provide free legal aid to the poor (Article 39A)\n3. To take steps to secure the participation of workers in the management of industries (Article 43A)\n4. To protect and improve the environment and safeguard forests and wildlife (Article 48A)\nSelect the correct answer using the codes below:",
+    "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All four provisions were added by the 42nd Constitutional Amendment Act, 1976:\n1. Article 39(f): Healthy development of children.\n2. Article 39A: Equal justice and free legal aid.\n3. Article 43A: Participation of workers in management of industries.\n4. Article 48A: Protection and improvement of environment and safeguarding of forests and wildlife.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "DPSP",
+    "article": "48A",
+    "examTrap": "44th Amendment added only Article 38(2) (minimizing inequalities in income and status), while 42nd Amendment added four articles: 39(f), 39A, 43A, and 48A."
+  },
+  {
+    "id": "q-120",
+    "question": "Consider the following statements regarding the Swaran Singh Committee (1976) and Fundamental Duties:\n1. The Committee recommended the inclusion of a separate chapter on Fundamental Duties in the Constitution.\n2. It recommended that Parliament may provide for penalty or punishment for non-compliance with any of the duties.\n3. It recommended that the duty to pay taxes should also be incorporated as a Fundamental Duty.\n4. All recommendations made by the Swaran Singh Committee were accepted and enacted under the 42nd Constitutional Amendment Act.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1, 2, and 3 are correct; Statement 4 is incorrect:\n- The Swaran Singh Committee recommended 8 duties, including the duty to pay taxes, and suggested that Parliament should impose punishments/penalties for refusal to observe duties, and that such penal laws should not be challenged in court.\n- However, the Congress government did not accept the recommendations regarding: (a) duty to pay taxes, (b) penal provisions/punishment, and (c) immunity of duty enforcement laws from judicial review. Thus, not all recommendations were accepted.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Duties",
+    "article": "51A",
+    "examTrap": "Swaran Singh recommended 8 duties, but the 42nd Amendment enacted 10 duties, rejecting the proposals on taxes, penalties, and court immunity."
+  },
+  {
+    "id": "q-121",
+    "question": "With reference to the Verma Committee on Fundamental Duties of Citizens (1999), consider the following statements:\n1. The Committee identified the existence of legal provisions for the implementation of several Fundamental Duties.\n2. It noted that the Prevention of Insults to National Honour Act, 1971 implements the duty under Article 51A(a).\n3. It noted that the Protection of Civil Rights Act, 1955 implements the duty to renounce practices derogatory to the dignity of women under Article 51A(e).\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect:\n- Statement 1: The Justice J.S. Verma Committee (1999) identified existing statutory laws enforcing duties.\n- Statement 2: The Prevention of Insults to National Honour Act (1971) prevents disrespect to the National Flag, Anthem, and Constitution (Art 51A(a)).\n- Statement 3 is incorrect: The Protection of Civil Rights Act, 1955 provides punishments for offences related to caste and religion (untouchability), whereas laws punishing practices derogatory to women include IPC Section 509, Dowry Prohibition Act, and Indecent Representation of Women Act.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Fundamental Duties",
+    "article": "51A",
+    "examTrap": "Protection of Civil Rights Act, 1955 enforces Article 17 and caste-based discrimination, not gender-based offenses."
+  },
+  {
+    "id": "q-122",
+    "question": "The 11th Fundamental Duty, which requires a parent or guardian to provide opportunities for education to their child between the age of six and fourteen years (Article 51A(k)), was added by which Constitutional Amendment?",
+    "options": [
+      "42nd Amendment Act, 1976",
+      "44th Amendment Act, 1978",
+      "86th Amendment Act, 2002",
+      "91st Amendment Act, 2003"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 86th Constitutional Amendment Act, 2002 added the 11th Fundamental Duty under Article 51A(k): 'who is a parent or guardian to provide opportunities for education to his child or, as the case may be, ward between the age of six and fourteen years.'",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Fundamental Duties",
+    "article": "51A",
+    "examTrap": "The 42nd Amendment added 10 duties in 1976; the 11th duty was added in 2002 by the 86th Amendment."
+  },
+  {
+    "id": "q-123",
+    "question": "Consider the following statements regarding the writ of Habeas Corpus:\n1. It literally means 'to have the body of' and is invoked to secure the release of a person unlawfully detained.\n2. It can be issued against both public authorities and private individuals.\n3. The writ can be issued even if the detention is ordered by a competent court in execution of a judicial sentence.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect:\n- Statement 1: Habeas Corpus is a Latin term meaning 'to have the body of', issued to produce a detained person before the court.\n- Statement 2: It is the only writ that can be issued against both public authorities and private individuals.\n- Statement 3 is incorrect: Habeas Corpus cannot be issued when: (a) detention is lawful, (b) proceeding is for contempt of legislature or court, (c) detention is by a competent court of law, or (d) detention is outside the territorial jurisdiction of the court.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Writs",
+    "article": "32",
+    "examTrap": "If detention is by order of a competent court or within lawful criminal process, Habeas Corpus cannot be issued."
+  },
+  {
+    "id": "q-124",
+    "question": "With reference to the writ of Mandamus, consider the following statements:\n1. It is a command issued to a public official or public body asking them to perform an official duty that they have failed or refused to perform.\n2. It can be issued to enforce a purely private contract or private duty.\n3. It cannot be issued against the President of India or State Governors for the exercise and performance of the powers and duties of their office.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect:\n- Statement 1: Mandamus ('we command') is issued to compel performance of a mandatory statutory or public duty.\n- Statement 2 is incorrect: Mandamus cannot be issued against private individuals, private bodies, or to enforce purely contractual obligations.\n- Statement 3 is correct: Mandamus cannot be issued against: (a) the President or State Governors (under Article 361 immunity), (b) against the Chief Justice of a High Court acting in judicial capacity, (c) against a private individual/body, or (d) when the duty is purely discretionary.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Writs",
+    "article": "32",
+    "examTrap": "Mandamus does not lie against the President or Governors, nor does it lie to enforce non-statutory private contracts or discretionary powers."
+  },
+  {
+    "id": "q-125",
+    "question": "What is the key distinction between the writs of 'Prohibition' and 'Certiorari'?",
+    "options": [
+      "Prohibition is issued against administrative bodies, while Certiorari is issued against legislative bodies.",
+      "Prohibition is only preventive (issued while proceedings are pending), whereas Certiorari is both preventive and curative (issued to quash an order already passed).",
+      "Prohibition is issued by lower courts to higher courts, while Certiorari is issued by higher courts to lower courts.",
+      "Prohibition applies to private individuals, while Certiorari applies only to public officials."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prohibition and Certiorari are both issued against judicial and quasi-judicial bodies. The difference is in their stage and effect:\n- Prohibition is purely preventive: it is issued while the case is still pending before a lower court/tribunal to prevent it from exceeding jurisdiction.\n- Certiorari is both preventive and curative: it is issued after the lower court/tribunal has passed an order without or in excess of jurisdiction, to quash the illegal order and transfer proceedings.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Writs",
+    "article": "32",
+    "examTrap": "Prohibition = during proceedings (preventive only); Certiorari = after order is passed or during proceedings (curative + preventive)."
+  },
+  {
+    "id": "q-126",
+    "question": "Which of the following writs can be sought by any citizen, even if he or she is not personally aggrieved (relaxation of locus standi)?",
+    "options": [
+      "Mandamus",
+      "Certiorari",
+      "Quo Warranto",
+      "Prohibition"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Quo Warranto ('by what authority or warrant') is issued to prevent illegal usurpation of a substantive public office created by statute or Constitution. Unlike other writs where only an aggrieved person has locus standi, a writ petition for Quo Warranto can be filed by any interested citizen, even if their personal fundamental right has not been directly infringed.",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Writs",
+    "article": "32",
+    "examTrap": "Quo Warranto and Public Interest Litigation (PIL) do not require traditional strict locus standi."
+  },
+  {
+    "id": "q-127",
+    "question": "Consider the following statements comparing the writ jurisdiction of the Supreme Court under Article 32 and High Courts under Article 226:\n1. The writ jurisdiction of the Supreme Court is narrower in subject scope than that of the High Courts.\n2. The Supreme Court cannot refuse to grant remedy under Article 32 because Article 32 is itself a Fundamental Right.\n3. The remedy under Article 226 is a discretionary remedy, and a High Court may refuse to exercise its writ jurisdiction if an adequate alternative legal remedy exists.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: SC can issue writs ONLY for enforcement of Fundamental Rights (narrower scope), whereas HC can issue writs for FRs as well as 'for any other purpose' (ordinary legal rights).\n- Statement 2: Article 32 is itself part of Part III; the SC is the guarantor and protector of FRs and cannot decline an Article 32 petition.\n- Statement 3: Article 226 is not in Part III; it is a discretionary constitutional power, and High Courts generally decline writs if an effective alternative statutory remedy is available.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Writs",
+    "article": "32",
+    "examTrap": "While the High Court's writ power is broader in scope (covers legal rights too), the Supreme Court's jurisdiction is more binding because Article 32 is a Fundamental Right in itself."
+  },
+  {
+    "id": "q-128",
+    "question": "Which Constitutional Amendment Act amended Article 226 to allow a High Court to issue writs to any government or authority located OUTSIDE its territorial jurisdiction, provided the cause of action arises wholly or in part within its territory?",
+    "options": [
+      "7th Amendment Act, 1956",
+      "15th Amendment Act, 1963",
+      "24th Amendment Act, 1971",
+      "42nd Amendment Act, 1976"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Originally, High Courts could only issue writs to authorities located within their territorial limits. The 15th Constitutional Amendment Act, 1963 introduced clause (2) to Article 226, enabling a High Court to issue writs to any government, authority, or person located outside its territorial jurisdiction, provided the 'cause of action' arises, wholly or in part, within the territorial jurisdiction of that High Court.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Article 226",
+    "article": "226",
+    "examTrap": "The 'cause of action' territorial extension for High Court writ jurisdiction was introduced by the 15th Amendment Act, 1963."
+  },
+  {
+    "id": "q-129",
+    "question": "Following the 44th Constitutional Amendment Act, 1978, what is the present status of the Right to Property in India?",
+    "options": [
+      "It is a Fundamental Right under Part III.",
+      "It is neither a constitutional right nor a statutory right.",
+      "It is a Legal and Constitutional Right under Article 300A in Part XII.",
+      "It is a Directive Principle of State Policy under Part IV."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 44th Amendment Act, 1978 abolished the Right to Property as a Fundamental Right by omitting Article 19(1)(f) and Article 31. It inserted a new Article 300A in Chapter IV of Part XII, titled 'Right to Property', which states: 'No person shall be deprived of his property save by authority of law.' Thus, it is a constitutional/legal right, but not a Fundamental Right.",
+    "difficulty": "Basic",
+    "examType": "General competitive exams",
+    "topic": "Article 300A",
+    "article": "300A",
+    "examTrap": "It is NOT in Part III (Fundamental Rights) and NOT in Part IV (DPSP); it is in Part XII (Finance, Property, Contracts and Suits) under Article 300A."
+  },
+  {
+    "id": "q-130",
+    "question": "With reference to the Right to Property after the 44th Amendment Act, 1978, consider the following statements:\n1. An aggrieved person cannot directly approach the Supreme Court under Article 32 for the violation of Article 300A.\n2. There is no constitutional guarantee of market compensation for state acquisition of private property except in cases of property of a minority educational institution (Article 30(1A)) and land under personal cultivation within the statutory ceiling limit (Article 31A(1)).\n3. The Supreme Court in Vidya Devi (2020) and Kolkata Municipal Corporation (2024) held that the right to property is also a recognized human right under Article 300A.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: Since Article 300A is not in Part III, an Article 32 petition does not lie for its violation; one must approach the High Court under Article 226 or file a civil suit.\n- Statement 2: The Constitution provides for mandatory market compensation only in two specific cases: (a) acquisition of property of a minority educational institution (Article 30(1A), inserted by 44th Amendment), and (b) acquisition of land under personal cultivation within the statutory ceiling limit (second proviso to Article 31A(1), inserted by 17th Amendment).\n- Statement 3: The SC has held that the right to property is not just a constitutional/statutory right but also a facet of human rights.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Article 300A",
+    "article": "300A",
+    "examTrap": "The two exceptions where market value compensation is still constitutionally guaranteed are minority educational institutions (Art 30(1A)) and personal cultivation land within ceiling limits (Art 31A)."
+  },
+  {
+    "id": "q-131",
+    "question": "Consider the following statements regarding the scope of Judicial Review in India:\n1. The concept of Judicial Review originated and developed in the United States of America under the landmark case Marbury v. Madison (1803).\n2. The Indian Constitution explicitly uses the phrase 'Judicial Review' in Article 13 and Article 32.\n3. In India, the scope of judicial review was originally narrower than in the USA because the Indian Constitution adopted 'procedure established by law' rather than 'due process of law'.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 1 and 3 are correct; Statement 2 is incorrect:\n- Statement 1: Judicial review was propounded by Chief Justice John Marshall of the US Supreme Court in Marbury v. Madison (1803).\n- Statement 2: The phrase 'Judicial Review' is NOT explicitly used anywhere in the text of the Indian Constitution, though the power is clearly conferred through Articles 13, 32, 131-136, 143, 226, 245, etc.\n- Statement 3: The scope in India was originally narrower than in the US because the US Constitution provides for 'due process of law' (giving broad leeway to judge legislative reasonableness), whereas India adopted 'procedure established by law', although Maneka Gandhi expanded Article 21 substantially.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Judicial Review",
+    "article": "13",
+    "examTrap": "The term 'Judicial Review' is nowhere mentioned in the text of the Constitution of India, just like the terms 'Budget' or 'Cabinet' (originally)."
+  },
+  {
+    "id": "q-132",
+    "question": "Consider the following statements regarding the Ninth Schedule and the landmark I.R. Coelho case (2007):\n1. The Ninth Schedule was added to the Constitution by the 1st Constitutional Amendment Act, 1951 to protect land reform laws from judicial review.\n2. In the I.R. Coelho case (2007), a 9-judge bench ruled that all laws placed in the Ninth Schedule after April 24, 1973 are open to judicial review.\n3. Laws placed in the Ninth Schedule can be challenged if they violate Fundamental Rights that form part of the Basic Structure of the Constitution.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct:\n- Statement 1: The 1st Amendment (1951) added Article 31B and the Ninth Schedule to insulate agrarian reform laws from judicial review.\n- Statement 2: In I.R. Coelho v. State of Tamil Nadu (2007), a unanimous 9-judge bench held that there can be no blanket immunity. Laws added to the Ninth Schedule after 24 April 1973 (the date of Kesavananda Bharati judgment) do not enjoy absolute protection.\n- Statement 3: Such laws can be challenged and invalidated if they violate the Basic Structure doctrine, especially the Golden Triangle of Articles 14, 19, and 21.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Judicial Review",
+    "article": "31B",
+    "examTrap": "The cutoff date for judicial review of Ninth Schedule laws is April 24, 1973 (the date of the Kesavananda judgment). Laws inserted prior to this date cannot be challenged on Basic Structure grounds."
+  }
+]

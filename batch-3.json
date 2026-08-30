@@ -1,0 +1,738 @@
+[
+  {
+    "id": "q-133",
+    "question": "With reference to the election of the President of India, consider the following statements:\n1. The electoral college consists of the elected members of both Houses of Parliament and the elected members of the Legislative Assemblies of the States and Union Territories with Assemblies.\n2. Nominated members of either House of Parliament and State Legislative Assemblies do not participate in the Presidential election.\n3. Members of the State Legislative Councils (Vidhan Parishad) participate in the Presidential election if they are directly elected.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statement 1 is correct: Under Article 54, the Electoral College for the Presidential election consists of elected members of Lok Sabha, Rajya Sabha, and elected members of State Legislative Assemblies (including Delhi, Puducherry, and Jammu & Kashmir with assemblies).\nStatement 2 is correct: Nominated members of Parliament and State Legislative Assemblies do not have voting rights in the Presidential election.\nStatement 3 is incorrect: Members of Legislative Councils (MLCs)—whether elected or nominated—do not participate in the election of the President under any circumstances.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "President",
+    "article": "54",
+    "examTrap": "Examiners often confuse candidates by implying that directly/indirectly elected MLCs have voting rights in presidential polls; MLCs are completely excluded."
+  },
+  {
+    "id": "q-134",
+    "question": "Consider the following statements regarding the calculation of the value of votes in the Presidential election of India:\n1. The value of the vote of an MLA depends upon the total population of the state and the total number of elected members in the state assembly.\n2. The population of the states for calculating vote value is determined based on the latest published Census figures (2011 Census).\n3. The value of the vote of an MP is determined by dividing the total value of votes of all MLAs of all States by the total number of elected MPs in both Houses.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statement 1 is correct: Under Article 55, Vote Value of an MLA = (Total State Population / Total Elected MLAs) × (1/1000).\nStatement 2 is incorrect: By the 84th Constitutional Amendment Act 2001 (which extended the freeze introduced by the 42nd Amendment), the population for the purpose of the Presidential election is still fixed according to the 1971 Census until the first census taken after 2026.\nStatement 3 is correct: Vote Value of an MP = (Total Value of Votes of all MLAs of all States) / (Total Number of Elected MPs of Lok Sabha and Rajya Sabha).",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "President",
+    "article": "55",
+    "examTrap": "Students often assume current population/2011 Census is used for vote calculation, but the 1971 census remains the constitutional benchmark until after 2026."
+  },
+  {
+    "id": "q-135",
+    "question": "All doubts and disputes arising out of or in connection with the election of the President or Vice-President of India are inquired into and decided exclusively by which of the following authorities?",
+    "options": [
+      "The Election Commission of India",
+      "A Special Parliamentary Tribunal",
+      "The Supreme Court of India",
+      "The High Court of Delhi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Article 71 of the Constitution, all doubts and disputes arising out of or in connection with the election of a President or Vice-President shall be inquired into and decided by the Supreme Court whose decision shall be final. An election petition challenging the election can be filed only in the Supreme Court by a candidate or 20 electors.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "President",
+    "article": "71",
+    "examTrap": "Do not confuse election disputes of MPs/MLAs (handled first by High Courts and Election Commission) with Presidential/Vice-Presidential election disputes (exclusive original jurisdiction of Supreme Court)."
+  },
+  {
+    "id": "q-136",
+    "question": "With reference to the impeachment of the President of India under Article 61, consider the following statements:\n1. An impeachment charge can be initiated in either House of Parliament.\n2. The resolution must be signed by at least one-fourth of the total members of the House that framed the charges and 14 days' advance notice must be given.\n3. The resolution must be passed by a majority of two-thirds of the members present and voting in each House.\n4. Nominated members of Parliament participate in the impeachment, but members of State Legislative Assemblies do not.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 4 only",
+      "1 and 3 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1, 2, and 4 are correct.\nStatement 3 is incorrect: The impeachment resolution must be passed by a majority of not less than two-thirds of the TOTAL membership of the House (the highest majority requirement under the Indian Constitution), not merely members present and voting.\nNominated MPs take part in impeachment even though they don't vote in election, while elected MLAs vote in election but have no role in impeachment.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "President",
+    "article": "61",
+    "examTrap": "The majority required under Article 61 is 2/3rd of the TOTAL membership of the House, NOT 'present and voting'."
+  },
+  {
+    "id": "q-137",
+    "question": "Which of the following is NOT a constitutional qualification for a person to be eligible for election as the President of India under Article 58?",
+    "options": [
+      "He must be a citizen of India",
+      "He must have completed the age of 35 years",
+      "He must be qualified for election as a member of the Rajya Sabha",
+      "He must not hold any office of profit under the Government of India or any State Government"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Under Article 58, the candidate must be qualified for election as a member of the House of the People (Lok Sabha), NOT the Rajya Sabha. Qualification for Rajya Sabha is required for the Vice-President (Article 66).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "President",
+    "article": "58",
+    "examTrap": "President must be qualified for Lok Sabha; Vice-President must be qualified for Rajya Sabha."
+  },
+  {
+    "id": "q-138",
+    "question": "According to Article 56 of the Constitution, what happens if the five-year term of the President of India expires before a successor enters upon office?",
+    "options": [
+      "The Chief Justice of India automatically assumes office as acting President",
+      "The Vice-President immediately takes over as acting President",
+      "The President continues to hold office, notwithstanding the expiration of his term, until his successor enters upon his office",
+      "The Prime Minister exercises presidential duties until a new President is sworn in"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Under Article 56(1)(c), the President shall, notwithstanding the expiration of his term, continue to hold office until his successor enters upon his office. This prevents an interregnum in the office of the Head of State. The Vice-President acts as President only in cases of death, resignation, removal, or illness/absence, not when the regular term expires and election delay occurs.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "President",
+    "article": "56"
+  },
+  {
+    "id": "q-139",
+    "question": "With reference to the pardoning powers under the Indian Constitution, consider the following statements:\n1. The President can grant pardon in cases where the punishment or sentence is by a Court Martial, whereas the Governor cannot.\n2. Both the President and the Governor have concurrent powers to pardon, commute, and remit a sentence of death.\n3. The pardoning power of the President under Article 72 is subject to limited judicial review.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statement 1 is correct: Under Article 72, the President is the sole authority empowered to grant pardons in sentences inflicted by Court Martial (military courts). Governors have no such power under Article 161.\nStatement 2 is incorrect: Only the President has the power to completely 'pardon' a death sentence. While a Governor can suspend, remit, or commute a death sentence, the power of full pardon for death sentences lies exclusively with the President.\nStatement 3 is correct: The Supreme Court (in Kehar Singh and Epuru Sudhakar cases) ruled that the President's pardoning power is subject to limited judicial review on grounds of arbitrariness, mala fide, or non-application of mind.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "President",
+    "article": "72",
+    "examTrap": "Governor cannot 'pardon' a death sentence, though the Governor can suspend, remit, or commute it."
+  },
+  {
+    "id": "q-140",
+    "question": "Which of the following correctly describes 'Respite' under the pardoning power of the President (Article 72)?",
+    "options": [
+      "Substituting one form of punishment with a lighter form",
+      "Reducing the period of sentence without changing its character",
+      "Awarding a lesser sentence in place of one originally awarded due to a special fact (such as pregnancy or physical disability)",
+      "Staying the execution of a sentence (especially of death) for a temporary period"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Definitions under Article 72:\n- Commutation: Substituting one form of punishment with a lighter form (e.g. death to life imprisonment).\n- Remission: Reducing the amount of sentence without changing its character (e.g. 10 years rigorous imprisonment to 5 years rigorous imprisonment).\n- Respite: Awarding a lesser sentence due to a special fact like pregnancy or physical disability of a convict.\n- Reprieve: A temporary stay of execution of a sentence to enable the convict to seek pardon or commutation.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "President",
+    "article": "72"
+  },
+  {
+    "id": "q-141",
+    "question": "In the landmark judgment of Epuru Sudhakar v. Government of Andhra Pradesh (2006), what did the Supreme Court hold regarding the clemency powers under Articles 72 and 161?",
+    "options": [
+      "Clemency decisions are political questions and completely immune from judicial review",
+      "The pardoning power is subject to judicial review if exercised on grounds of caste, religion, political loyalty, or extraneous considerations",
+      "The President must grant a personal oral hearing to the convict before deciding a mercy petition",
+      "The advice tendered by the Council of Ministers on mercy petitions can be investigated by a trial court"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Epuru Sudhakar (2006), the Supreme Court held that the pardoning power of the President and Governor is subject to judicial review. If the order was passed without application of mind, is mala fide, based on extraneous/irrelevant considerations (such as caste, religion, or political loyalty), or suffers from arbitrariness, the court can intervene.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "President",
+    "article": "72"
+  },
+  {
+    "id": "q-142",
+    "question": "With reference to the Veto powers of the President of India, consider the following statements:\n1. The President has Suspensive Veto, Pocket Veto, and Absolute Veto, but does not possess Qualified Veto.\n2. The President can use Suspensive Veto in respect of Money Bills by returning them for reconsideration.\n3. The 24th Constitutional Amendment Act 1971 made it obligatory for the President to give assent to Constitutional Amendment Bills.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statement 1 is correct: The Indian President possesses Absolute Veto, Suspensive Veto, and Pocket Veto. 'Qualified Veto' (which can be overridden by a higher legislative majority) exists in the US Constitution, not in India.\nStatement 2 is incorrect: The President cannot return a Money Bill for reconsideration (no Suspensive Veto on Money Bills under Article 111).\nStatement 3 is correct: The 24th Amendment Act 1971 amended Article 368 to make presidential assent mandatory for Constitutional Amendment Bills ('shall give his assent').",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "President",
+    "article": "111",
+    "examTrap": "President cannot return a Money Bill for reconsideration; he must either give assent or withhold assent."
+  },
+  {
+    "id": "q-143",
+    "question": "In 1986, President Giani Zail Singh exercised 'Pocket Veto' in respect of which of the following controversial Bills?",
+    "options": [
+      "The Dowry Prohibition (Amendment) Bill",
+      "The Indian Post Office (Amendment) Bill",
+      "The PEPSU Appropriation Bill",
+      "The Prevention of Terrorism Bill"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In 1986, President Giani Zail Singh used the pocket veto with respect to the Indian Post Office (Amendment) Bill passed by the Rajiv Gandhi government, which sought to impose restrictions on the freedom of the press and allow intercepting personal postal communications. The President kept the bill pending without taking any action.",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "President",
+    "article": "111"
+  },
+  {
+    "id": "q-144",
+    "question": "Prior recommendation or previous sanction of the President of India is mandatory for the introduction of which of the following bills in Parliament?\n1. A bill involving expenditure from the Consolidated Fund of India under Article 117(3)\n2. A bill for the formation of new States or alteration of areas, boundaries, or names of existing States under Article 3\n3. A bill providing for any of the matters specified in Article 110 (Money Bill)\n4. A Constitutional Amendment Bill under Article 368\nSelect the correct answer using the code given below:",
+    "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "2 and 3 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bills requiring prior recommendation of the President include:\n- Money Bills (Article 117(1))\n- Financial Bills involving expenditure from CFI (Article 117(3))\n- Bills under Article 3 (reorganizing state boundaries, names, areas)\n- State bills imposing trade restrictions (Article 304(b))\nConstitutional Amendment Bills under Article 368 do NOT require prior recommendation of the President.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "President",
+    "article": "117"
+  },
+  {
+    "id": "q-145",
+    "question": "With reference to the election of the Vice-President of India, consider the following statements:\n1. The electoral college consists of elected as well as nominated members of both Houses of Parliament.\n2. Members of the State Legislative Assemblies do not participate in the election of the Vice-President.\n3. The election is held in accordance with the system of proportional representation by means of the single transferable vote and voting is by secret ballot.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All three statements are correct under Article 66:\n1. The Vice-Presidential electoral college consists of all members of both Houses of Parliament (both elected and nominated).\n2. Unlike the Presidential electoral college, State Legislative Assemblies have no role whatsoever in the Vice-President's election.\n3. The election is conducted via proportional representation by means of single transferable vote with secret balloting.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Vice-President",
+    "article": "66"
+  },
+  {
+    "id": "q-146",
+    "question": "Consider the following statements regarding the removal of the Vice-President of India under Article 67(b):\n1. A resolution for removal can be initiated only in the Rajya Sabha and requires at least 14 days' advance notice.\n2. The resolution must be passed by the Rajya Sabha by an effective majority (majority of all the then members of the Council).\n3. The resolution must be agreed to by the Lok Sabha by a special majority of two-thirds of members present and voting.\n4. No formal grounds for the removal of the Vice-President are mentioned in the Constitution.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 4 only",
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 3 and 4 only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1, 2, and 4 are correct:\n- A removal resolution can be initiated only in Rajya Sabha after giving 14 days notice (Art 67(b)).\n- It must be passed by Rajya Sabha by an 'effective majority' (majority of all the then members).\n- No grounds for removal are specified in the Constitution.\nStatement 3 is incorrect: The Lok Sabha needs to agree only by a SIMPLE majority (majority of members present and voting), not a special majority.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Vice-President",
+    "article": "67",
+    "examTrap": "In the Lok Sabha, the removal resolution for the Vice-President requires only a simple majority, not a 2/3rd special majority."
+  },
+  {
+    "id": "q-147",
+    "question": "The Vice-President of India is the ex-officio Chairman of the Council of States (Rajya Sabha). In which capacity does he draw his regular monthly salary and allowances?",
+    "options": [
+      "As the Vice-President of India",
+      "As the Chairman of the Rajya Sabha",
+      "As a Member of Parliament",
+      "As a Constitutional Advisor to the President"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Under Article 97 and the Second Schedule, the Vice-President does not receive any salary as Vice-President. He draws his regular salary in his capacity as the ex-officio Chairman of the Rajya Sabha. However, when acting as President under Article 65, he receives the salary and allowances entitled to the President.",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Vice-President",
+    "article": "97"
+  },
+  {
+    "id": "q-148",
+    "question": "When the Vice-President acts as President or discharges the functions of the President under Article 65 of the Constitution:\n1. He does not perform the duties of the office of Chairman of the Council of States.\n2. He is not entitled to any salary or allowance payable to the Chairman of the Council of States.\n3. The maximum period for which he can act as President due to a vacancy caused by death, resignation, or removal is 6 months.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All three statements are correct under Articles 65 and 62:\n1 & 2. Under Article 65(2) and 65(3), when acting as President, the Vice-President shall not perform duties of Chairman of Rajya Sabha and is not entitled to the salary of Chairman, but receives President's emoluments.\n3. Under Article 62(2), an election to fill a vacancy caused by death, resignation, or removal must be held within 6 months, meaning the Vice-President can act as President for a maximum period of 6 months.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Vice-President",
+    "article": "65"
+  },
+  {
+    "id": "q-149",
+    "question": "Regarding the appointment of the Prime Minister of India under Article 75, which of the following statements is constitutionally accurate?",
+    "options": [
+      "The Constitution requires the President to appoint only a person who has already proved his majority on the floor of the Lok Sabha",
+      "The President appoints the Prime Minister, and other Ministers are appointed by the President on the advice of the Prime Minister",
+      "The Prime Minister must be a member of the Lok Sabha at the time of appointment",
+      "The President's discretionary selection of the Prime Minister can never be subjected to a floor test"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Article 75(1) simply states: 'The Prime Minister shall be appointed by the President and the other Ministers shall be appointed by the President on the advice of the Prime Minister.' In 1997, the Supreme Court ruled that a person who is not a member of either House can be appointed as PM for six months. In 1980, the Delhi High Court affirmed that the President may first appoint a PM and then ask him to prove majority on the floor within a reasonable period.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Prime Minister",
+    "article": "75"
+  },
+  {
+    "id": "q-150",
+    "question": "With reference to the constitutional duties of the Prime Minister under Article 78, consider the following statements:\n1. To communicate to the President all decisions of the Council of Ministers relating to the administration of the affairs of the Union and proposals for legislation.\n2. To furnish such information relating to the administration of the affairs of the Union and proposals for legislation as the President may call for.\n3. If the President so requires, to submit for the consideration of the Council of Ministers any matter on which a decision has been taken by a Minister but which has not been considered by the Council.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Article 78 explicitly enumerates these three duties of the Prime Minister:\n(a) To communicate to the President all decisions of the Council of Ministers relating to the administration of Union affairs and legislative proposals.\n(b) To furnish information called for by the President.\n(c) If the President requires, to submit for the consideration of the Council of Ministers any matter on which a decision was taken by an individual minister without collective consideration.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Prime Minister",
+    "article": "78"
+  },
+  {
+    "id": "q-151",
+    "question": "Who among the following Prime Ministers of India was a member of the Rajya Sabha at the time of assuming the office of Prime Minister?",
+    "options": [
+      "Lal Bahadur Shastri",
+      "Indira Gandhi",
+      "Charan Singh",
+      "Morarji Desai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Indira Gandhi was a member of the Rajya Sabha when she first became Prime Minister in 1966. Other Prime Ministers who were Rajya Sabha members when appointed include H.D. Deve Gowda (1996), I.K. Gujral (1997), and Dr. Manmohan Singh (2004 and 2009).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Prime Minister"
+  },
+  {
+    "id": "q-152",
+    "question": "What is the constitutional effect of the resignation or sudden death of an incumbent Prime Minister?",
+    "options": [
+      "The senior-most Cabinet Minister automatically becomes the permanent Prime Minister",
+      "The Council of Ministers continues to function under the Deputy Prime Minister",
+      "The Council of Ministers automatically stands dissolved / collapses",
+      "The President assumes direct legislative powers under Article 356"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Prime Minister is the keystone of the Cabinet arch. Since the Council of Ministers is formed on the advice of the Prime Minister, the death or resignation of the Prime Minister automatically dissolves the Council of Ministers. In contrast, the resignation or death of any other Minister merely creates a vacancy which the Prime Minister may or may not fill.",
+    "difficulty": "Basic",
+    "examType": "General competitive exams",
+    "topic": "Prime Minister"
+  },
+  {
+    "id": "q-153",
+    "question": "With reference to Article 74 of the Constitution of India, consider the following statements:\n1. There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President, who shall act in accordance with such advice.\n2. The President may require the Council of Ministers to reconsider such advice, but must act in accordance with the advice tendered after such reconsideration.\n3. The nature of advice tendered by Ministers to the President shall not be inquired into in any court.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All three statements are correct:\n- Statement 1: 42nd Amendment 1976 made the advice of the Council of Ministers explicitly binding on the President (Article 74(1)).\n- Statement 2: 44th Amendment 1978 introduced a proviso allowing the President to return advice once for reconsideration; but after reconsideration, the advice is binding.\n- Statement 3: Article 74(2) bars courts from inquiring into the question whether any, and if so what, advice was tendered by Ministers to the President (though underlying materials are reviewable as per SR Bommai case).",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Council of Ministers",
+    "article": "74"
+  },
+  {
+    "id": "q-154",
+    "question": "Consider the following statements regarding the principle of 'Collective Responsibility' enshrined in Article 75(3) of the Indian Constitution:\n1. The Council of Ministers is collectively responsible to Parliament as a whole, including both the Lok Sabha and the Rajya Sabha.\n2. When a No-Confidence Motion is passed in the Lok Sabha, all ministers including those from the Rajya Sabha must resign.\n3. Cabinet solidarity requires that a minister who disagrees with a Cabinet decision must either defend it publicly or resign from the Ministry.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statement 1 is incorrect: Under Article 75(3), the Council of Ministers is collectively responsible specifically to the 'House of the People' (Lok Sabha), NOT to Parliament as a whole (Rajya Sabha cannot pass a No-Confidence Motion).\nStatement 2 is correct: A vote of no-confidence passed by Lok Sabha obliges the entire Council of Ministers to resign, including ministers who are members of Rajya Sabha.\nStatement 3 is correct: Collective responsibility implies cabinet solidarity—ministers sink or swim together. If a minister disagrees with a cabinet policy, he/she must accept joint responsibility or resign (e.g. Dr. B.R. Ambedkar resigned over the Hindu Code Bill).",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Council of Ministers",
+    "article": "75",
+    "examTrap": "Article 75(3) specifies responsibility to the 'House of the People' (Lok Sabha), NOT Parliament or Rajya Sabha."
+  },
+  {
+    "id": "q-155",
+    "question": "Under Article 75(2) of the Indian Constitution, the Ministers hold office during the pleasure of the President. What does 'pleasure of the President' signify in constitutional practice?",
+    "options": [
+      "The President can dismiss any Minister at his personal discretion without consulting the Prime Minister",
+      "A Minister can be dismissed by the President only on the advice of the Prime Minister",
+      "The Ministers can be removed only through an impeachment motion passed by Parliament",
+      "The Ministers enjoy a fixed five-year tenure and cannot be removed before that"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Article 75(2) embodies the principle of 'individual responsibility'. Although legally ministers hold office during the pleasure of the President, the President exercises this power only on the advice of the Prime Minister. If the Prime Minister loses confidence in a minister, he can ask the minister to resign or advise the President to dismiss him.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Council of Ministers",
+    "article": "75"
+  },
+  {
+    "id": "q-156",
+    "question": "Which Constitutional Amendment Act capped the total number of Ministers, including the Prime Minister, in the Central Council of Ministers at 15% of the total strength of the Lok Sabha?",
+    "options": [
+      "86th Constitutional Amendment Act, 2002",
+      "91st Constitutional Amendment Act, 2003",
+      "97th Constitutional Amendment Act, 2011",
+      "102nd Constitutional Amendment Act, 2018"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 91st Constitutional Amendment Act, 2003 inserted Clause (1A) in Article 75, providing that the total number of Ministers, including the Prime Minister, in the Council of Ministers shall not exceed 15 percent of the total number of members of the House of the People (Lok Sabha).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Council of Ministers",
+    "article": "75"
+  },
+  {
+    "id": "q-157",
+    "question": "With reference to the distinction between the 'Council of Ministers' and the 'Cabinet', consider the following statements:\n1. The word 'Cabinet' was not present in the original text of the Constitution and was inserted by the 44th Constitutional Amendment Act, 1978.\n2. The Cabinet is a smaller inner body consisting only of Cabinet Ministers, whereas the Council of Ministers includes Cabinet Ministers, Ministers of State, and Deputy Ministers.\n3. The Council of Ministers meets frequently as a collective body to deliberate government policy, while the Cabinet rarely meets.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statement 1 is correct: The word 'Cabinet' was inserted into the Constitution by the 44th Amendment Act 1978 under Article 352(3) defining it as the council consisting of the PM and other ministers of cabinet rank.\nStatement 2 is correct: Council of Ministers is a wider constitutional body (60-70 ministers) with three categories: Cabinet Ministers, Ministers of State (Independent/Attached), and Deputy Ministers. Cabinet is a compact core body (15-20 members).\nStatement 3 is incorrect: In practice, it is the Cabinet that meets regularly (usually weekly) to formulate policy and take decisions; the full Council of Ministers rarely meets as a deliberative body.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Council of Ministers",
+    "article": "352",
+    "examTrap": "The full Council of Ministers rarely meets; it is the Cabinet that meets regularly to manage executive governance."
+  },
+  {
+    "id": "q-158",
+    "question": "Which of the following bodies is an informal extra-constitutional advisory group consisting of the Prime Minister and a few influential colleagues/friends to take crucial policy decisions?",
+    "options": [
+      "Shadow Cabinet",
+      "Kitchen Cabinet (Inner Cabinet)",
+      "National Development Council",
+      "Cabinet Secretariat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'Kitchen Cabinet' (or Inner Cabinet) is an informal, extra-constitutional body consisting of the Prime Minister and two to four influential colleagues/friends/advisors in whom the PM places particular trust to deliberate on critical issues. The 'Shadow Cabinet' is a British institution where the opposition party forms an alternative cabinet to scrutinize counterpart government departments.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Council of Ministers"
+  },
+  {
+    "id": "q-159",
+    "question": "Under Article 76 of the Constitution, what is the mandatory qualification required for a person to be appointed as the Attorney General for India by the President?",
+    "options": [
+      "Must be an advocate of the High Court for at least 15 years",
+      "Must be qualified to be appointed as a Judge of the Supreme Court",
+      "Must have served as a Judge of a High Court for at least 10 years",
+      "Must be a senior member of the Law Commission of India"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Article 76(1) states that the President shall appoint a person who is qualified to be appointed a Judge of the Supreme Court to be Attorney General for India (i.e. citizen of India, either 5 years as High Court judge, 10 years as High Court advocate, or an eminent jurist in President's opinion).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Attorney General",
+    "article": "76"
+  },
+  {
+    "id": "q-160",
+    "question": "Consider the following statements regarding the tenure and removal of the Attorney General for India:\n1. The Constitution of India fixes a tenure of 5 years for the Attorney General.\n2. The procedure and grounds for the removal of the Attorney General are identical to those of a Supreme Court Judge.\n3. The Attorney General holds office during the pleasure of the President and receives remuneration determined by the President.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements 1 and 2 are incorrect: The Constitution does not fix the term of office of the Attorney General, nor does it lay down the procedure or grounds for removal. He holds office during the pleasure of the President (Article 76(4)).\nStatement 3 is correct: Article 76(4) states: 'The Attorney-General shall hold office during the pleasure of the President, and shall receive such remuneration as the President may determine.' By convention, he resigns when the government (Council of Ministers) changes or resigns.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Attorney General",
+    "article": "76",
+    "examTrap": "The Constitution does not specify any fixed term or impeachment procedure for the Attorney General; he serves purely during presidential pleasure."
+  },
+  {
+    "id": "q-161",
+    "question": "With reference to the rights and privileges of the Attorney General for India under Article 88 and Article 76, consider the following statements:\n1. He has the right of audience in all courts in the territory of India.\n2. He has the right to speak and take part in the proceedings of both Houses of Parliament or any joint sitting.\n3. He has the right to vote when taking part in the proceedings of any parliamentary committee of which he is named a member.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct: Under Article 76(3), the AG has right of audience in all courts in India. Under Article 88, he has the right to speak and participate in both Houses, joint sittings, and parliamentary committees of which he is named a member.\nStatement 3 is incorrect: Article 88 explicitly specifies that the Attorney General shall NOT by virtue of this article be entitled to vote.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Attorney General",
+    "article": "88",
+    "examTrap": "Under Article 88, the Attorney General can speak and participate in Parliament/committees, but has NO right to vote."
+  },
+  {
+    "id": "q-162",
+    "question": "Consider the following statements regarding the official status and limitations of the Attorney General for India:\n1. The Attorney General is not a full-time government servant and is not debarred from private legal practice.\n2. The Attorney General cannot advise or hold a brief against the Government of India.\n3. The Attorney General is an ex-officio member of the Central Cabinet.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct: The Attorney General is not a full-time government counsel, does not fall into the category of government servants, and is not debarred from private legal practice. However, he cannot advise or defend parties against the Union of India, nor defend accused persons in criminal prosecutions without government permission.\nStatement 3 is incorrect: The Attorney General is not a member of the Central Cabinet. The separate Law Minister in the Cabinet looks after legal matters at government level.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Attorney General",
+    "article": "76"
+  },
+  {
+    "id": "q-163",
+    "question": "Which of the following law officers is/are mentioned in the text of the Constitution of India under Article 76?\n1. Attorney General for India\n2. Solicitor General of India\n3. Additional Solicitor General of India\nSelect the correct answer using the code given below:",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Only the office of the Attorney General for India is created by the Constitution under Article 76. The Solicitor General of India and Additional Solicitors General are statutory/executive posts created by Law Officers (Conditions of Service) Rules to assist the Attorney General, and are NOT mentioned in the Constitution.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Attorney General",
+    "article": "76",
+    "examTrap": "Neither Solicitor General nor Additional Solicitor General is a constitutional office; only the Attorney General is established by Article 76."
+  },
+  {
+    "id": "q-164",
+    "question": "With reference to the Ordinance-making power of the President under Article 123 of the Constitution, consider the following statements:\n1. The President can promulgate an ordinance only when both Houses of Parliament are not in session.\n2. An ordinance can be promulgated if either of the two Houses of Parliament is not in session.\n3. The President's satisfaction regarding the necessity of immediate action can be questioned in a court of law on grounds of mala fide.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 3 only",
+      "2 and 3 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statement 1 is incorrect and Statement 2 is correct: A law can only be enacted by Parliament when both Houses pass it. Therefore, an ordinance can be issued when BOTH Houses are not in session OR when EITHER of the two Houses is not in session.\nStatement 3 is correct: In R.C. Cooper (1970) and Krishna Kumar Singh (2017), the Supreme Court clarified that the satisfaction of the President under Article 123 is subject to judicial review if it is shown to be an abuse of power, mala fide, or colourable exercise of authority.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Ordinance Power",
+    "article": "123",
+    "examTrap": "An ordinance can be issued even if ONE House is in session, because a bill requires assent of both Houses."
+  },
+  {
+    "id": "q-165",
+    "question": "What is the maximum potential lifespan of an Ordinance promulgated by the President under Article 123 without being approved by Parliament?",
+    "options": [
+      "6 weeks",
+      "6 months",
+      "6 months and 6 weeks",
+      "1 year"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Under Article 85, the maximum gap between two sessions of Parliament cannot exceed six months. Under Article 123(2), an ordinance ceases to operate at the expiration of six weeks from the reassembly of Parliament. Thus, the maximum potential lifespan of an ordinance without parliamentary approval is 6 months + 6 weeks.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Ordinance Power",
+    "article": "123"
+  },
+  {
+    "id": "q-166",
+    "question": "Consider the following statements regarding the constitutional limitations on the Ordinance-making power of the President:\n1. The legislative power to issue an ordinance is co-extensive with the law-making powers of Parliament.\n2. An ordinance cannot abridge or take away any of the Fundamental Rights guaranteed in Part III of the Constitution.\n3. The President can amend the Constitution of India through an ordinance during a national emergency.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct: An ordinance has the same force and effect as an Act of Parliament (Article 123(2)) and is subject to the same constitutional limitations; therefore, it cannot violate Part III Fundamental Rights (Article 13(2) defines 'law' to include ordinances).\nStatement 3 is incorrect: An ordinance CANNOT be used to amend the Constitution under Article 368 under any circumstances.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Ordinance Power",
+    "article": "123",
+    "examTrap": "The Constitution can only be amended under Article 368 by Parliament; it can never be amended via an Ordinance."
+  },
+  {
+    "id": "q-167",
+    "question": "In the landmark case of D.C. Wadhwa v. State of Bihar (1987), what major constitutional principle regarding ordinances was laid down by the Supreme Court?",
+    "options": [
+      "Ordinances cannot be promulgated during the pendency of a General Election",
+      "Repeated re-promulgation of ordinances without placing them before the legislature is a fraud on the Constitution and unconstitutional",
+      "Ordinances can only deal with fiscal matters and tax collection",
+      "The Governor cannot issue ordinances without prior sanction of the President"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In D.C. Wadhwa v. State of Bihar (1987), the Supreme Court held that the mechanical and repeated re-promulgation of ordinances by the executive without placing them before the legislature to be enacted into law constitutes a subversion of the democratic process and a 'fraud on the Constitution'. This was reaffirmed in Krishna Kumar Singh v. State of Bihar (2017).",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Ordinance Power",
+    "article": "123"
+  },
+  {
+    "id": "q-168",
+    "question": "Which Constitutional Amendment Act discontinued the provision for nomination of two Anglo-Indian members to the Lok Sabha by the President under Article 331?",
+    "options": [
+      "101st Constitutional Amendment Act, 2016",
+      "103rd Constitutional Amendment Act, 2019",
+      "104th Constitutional Amendment Act, 2019",
+      "105th Constitutional Amendment Act, 2021"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 104th Constitutional Amendment Act, 2019 extended the reservation of seats for SCs and STs in the Lok Sabha and State Assemblies for another ten years (up to 2030), while discontinuing/ending the provision for nominated Anglo-Indian seats in Lok Sabha (Article 331) and State Assemblies (Article 333).",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Lok Sabha",
+    "article": "331"
+  },
+  {
+    "id": "q-169",
+    "question": "With reference to the delimitation of parliamentary constituencies in India, consider the following statements:\n1. The 42nd Constitutional Amendment Act 1976 froze the total number of seats in the Lok Sabha based on the 1971 census.\n2. The 84th Constitutional Amendment Act 2001 extended the freeze on the total number of seats allocated to each State until the first census after 2026.\n3. The 87th Constitutional Amendment Act 2003 permitted the rationalization and delimitation of territorial constituencies within states on the basis of the 2001 census figures without altering the state-wise total seats.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All three statements are correct:\n- 42nd Amendment (1976) froze total seats allocated to States at 1971 census levels until year 2000.\n- 84th Amendment (2001) extended this embargo for another 25 years (up to year 2026).\n- 87th Amendment (2003) provided for delimitation of intra-state constituencies based on the 2001 Census without changing the total number of seats allocated to each state.",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Lok Sabha",
+    "article": "81"
+  },
+  {
+    "id": "q-170",
+    "question": "Consider the following statements regarding the office of the Speaker of the Lok Sabha under Article 93 and 94:\n1. The Speaker is elected by the Lok Sabha from amongst its members on a date fixed by the President.\n2. The Speaker remains in office until immediately before the first meeting of the new Lok Sabha after dissolution.\n3. If the Speaker intends to resign, the letter of resignation must be addressed to the President of India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1 and 2 are correct: The Speaker is elected by Lok Sabha members from amongst themselves, and the election date is fixed by the President. Under Article 94, whenever the Lok Sabha is dissolved, the Speaker does not vacate his office until immediately before the first meeting of the new Lok Sabha.\nStatement 3 is incorrect: Under Article 94(b), the Speaker resigns by writing under his hand addressed to the Deputy Speaker (NOT to the President).",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Lok Sabha",
+    "article": "94",
+    "examTrap": "The Speaker addresses his resignation letter to the Deputy Speaker, NOT to the President."
+  },
+  {
+    "id": "q-171",
+    "question": "Which of the following special constitutional powers and duties belong exclusively to the Speaker of the Lok Sabha?\n1. Endorsing and certifying a bill as a Money Bill under Article 110\n2. Presiding over a Joint Sitting of both Houses of Parliament under Article 118\n3. Exercising a casting vote under Article 100 in the first instance on any motion\n4. Deciding questions of disqualification of members of Lok Sabha arising on grounds of defection under the Tenth Schedule\nSelect the correct answer using the code given below:",
+    "options": [
+      "1, 2 and 4 only",
+      "1 and 2 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1, 2, and 4 are correct powers of the Speaker:\n- Speaker's decision on whether a bill is a Money Bill is final (Article 110(3)).\n- Speaker presides over joint sittings (Article 118(4)).\n- Speaker decides 10th Schedule disqualifications.\nStatement 3 is incorrect: Under Article 100(1), the Speaker does NOT vote in the first instance; he exercises only a casting vote in the case of an equality of votes (tie).",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Lok Sabha",
+    "article": "100",
+    "examTrap": "The Speaker does not vote in the first instance; he votes only to resolve a tie (casting vote)."
+  },
+  {
+    "id": "q-172",
+    "question": "Who appoints the Pro Tem Speaker of the Lok Sabha, and what is the primary constitutional duty of this office?",
+    "options": [
+      "The outgoing Speaker; to supervise the election of the Prime Minister",
+      "The President; to administer the oath of office to newly elected MPs and enable election of the regular Speaker",
+      "The Chief Justice of India; to inspect the credentials of newly elected members",
+      "The Secretary-General of Lok Sabha; to conduct the first session of Parliament"
+    ],
+    "correctAnswer": 1,
+    "explanation": "As the office of the Speaker becomes vacant immediately before the first meeting of the newly-elected Lok Sabha, the President appoints a senior member of the Lok Sabha as the Speaker Pro Tem (Article 95(1)). The President administers the oath to him. The Speaker Pro Tem administers oaths to all other new MPs and presides over the election of the permanent Speaker.",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Lok Sabha",
+    "article": "95"
+  },
+  {
+    "id": "q-173",
+    "question": "With reference to the effects of the dissolution of the Lok Sabha on pending bills under Article 107 of the Indian Constitution, consider the following statements:\n1. A bill pending in the Lok Sabha lapses.\n2. A bill passed by the Lok Sabha but pending in the Rajya Sabha lapses.\n3. A bill originating and pending in the Rajya Sabha, which has not been passed by the Lok Sabha, does not lapse.\n4. A bill returned by the President for reconsideration of the Houses lapses upon dissolution of the Lok Sabha.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 2 and 4 only",
+      "2, 3 and 4 only",
+      "1, 3 and 4 only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rules regarding lapsing of bills on dissolution of Lok Sabha (Article 107 & 108):\n- Statement 1 is correct: Bills pending in Lok Sabha lapse.\n- Statement 2 is correct: Bills passed by Lok Sabha and pending in Rajya Sabha lapse.\n- Statement 3 is correct: Bills originating and pending in Rajya Sabha (not passed by LS) DO NOT lapse.\n- Statement 4 is incorrect: A bill returned by the President for reconsideration does NOT lapse; if the bill is passed again by both Houses (or after new LS is constituted), the President must give assent.",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Lok Sabha",
+    "article": "107",
+    "examTrap": "A bill returned by the President for reconsideration does NOT lapse upon the dissolution of Lok Sabha."
+  },
+  {
+    "id": "q-174",
+    "question": "Which of the following statements regarding the 'Leader of Opposition' in the Lok Sabha is NOT correct?",
+    "options": [
+      "The post of Leader of the Opposition was accorded statutory recognition under the Salary and Allowances of Leaders of Opposition in Parliament Act, 1977",
+      "The Leader of Opposition enjoys the salary, allowances, and rank equivalent to a Cabinet Minister",
+      "The Constitution of India explicitly mandates that the leader of the largest opposition party must have at least 10% seats of the House to be recognized as Leader of Opposition",
+      "The 10% quorum rule for recognizing the Leader of Opposition is based on the Speaker's Directions/rules rather than a specific constitutional article"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C is NOT correct: The 10% threshold (55 seats in Lok Sabha) is derived from parliamentary conventions/Speaker's Directions and the Salary and Allowances of Leaders of Opposition in Parliament Act, 1977, but it is NOT explicitly mentioned anywhere in the Constitution of India.",
+    "difficulty": "Exam",
+    "examType": "General competitive exams",
+    "topic": "Lok Sabha"
+  },
+  {
+    "id": "q-175",
+    "question": "According to Article 80 of the Constitution, the President of India nominates 12 members to the Council of States (Rajya Sabha) having special knowledge or practical experience in respect of which of the following four fields?",
+    "options": [
+      "Literature, Science, Art, and Social Service",
+      "Literature, Science, Cooperative Societies, and Social Service",
+      "Literature, Art, Education, and Science",
+      "Art, Science, Economics, and Public Administration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Under Article 80(3), the 12 nominated members of Rajya Sabha must have special knowledge or practical experience in: Literature, Science, Art, and Social Service. Note: 'Cooperative movement' is a ground for nomination to State Legislative Councils (Article 171), but NOT for the Rajya Sabha.",
+    "difficulty": "Basic",
+    "examType": "SSC-style",
+    "topic": "Rajya Sabha",
+    "article": "80",
+    "examTrap": "Cooperative movement is included for Governor's nominations to State Legislative Councils under Article 171, but NOT for Rajya Sabha under Article 80."
+  },
+  {
+    "id": "q-176",
+    "question": "Compare the federal character of the Indian Council of States (Rajya Sabha) with the United States Senate:\n1. Unlike the US Senate where every State has equal representation (2 senators each), representation of Indian States in the Rajya Sabha is proportional to their population.\n2. The allocation of seats to the States and Union Territories in the Rajya Sabha is contained in the Fourth Schedule of the Constitution.\n3. The election of representatives of States to the Rajya Sabha is conducted by open ballot rather than secret ballot.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All three statements are correct:\n1. In the US Senate, every state gets 2 seats regardless of population (equal federal principle). In India, representation is based on population (e.g. UP has 31 seats, while Sikkim has 1).\n2. The Fourth Schedule details the state-wise allocation of seats in Rajya Sabha.\n3. In 2003, Parliament amended the Representation of the People Act 1951 to introduce 'open ballot' system for Rajya Sabha elections to prevent cross-voting and horse-trading (upheld by Supreme Court in Kuldip Nayar v. Union of India, 2006).",
+    "difficulty": "Advanced",
+    "examType": "UPSC statement-based",
+    "topic": "Rajya Sabha",
+    "article": "80"
+  },
+  {
+    "id": "q-177",
+    "question": "Which of the following special exclusive powers are vested solely in the Rajya Sabha under the Constitution of India?\n1. Authorizing Parliament to make laws on a matter enumerated in the State List in the national interest under Article 249\n2. Authorizing Parliament to create one or more new All-India Services common to the Union and the States under Article 312\n3. Passing a resolution to initiate the removal of the Vice-President under Article 67\n4. Introducing and passing a Money Bill under Article 109\nSelect the correct answer using the code given below:",
+    "options": [
+      "1, 2 and 3 only",
+      "1 and 2 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements 1, 2, and 3 are exclusive special powers of Rajya Sabha:\n- Article 249: RS can pass a resolution by 2/3rd majority of members present and voting enabling Parliament to legislate on State List.\n- Article 312: RS can pass a resolution by 2/3rd majority to create new All-India Services.\n- Article 67: Removal of the Vice-President can be initiated ONLY in the Rajya Sabha.\nStatement 4 is incorrect: Money Bills can ONLY be introduced in the Lok Sabha (Article 109); the Rajya Sabha has very limited power over money bills (cannot amend or reject, can only suggest recommendations within 14 days).",
+    "difficulty": "Exam",
+    "examType": "UPSC statement-based",
+    "topic": "Rajya Sabha",
+    "article": "249",
+    "examTrap": "Money Bills can NEVER be introduced in the Rajya Sabha; they can only be introduced in Lok Sabha on President's recommendation."
+  }
+]
