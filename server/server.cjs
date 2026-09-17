@@ -29,6 +29,11 @@ app.use((req, res, next) => {
   next();
 });
 
+// Use this endpoint to confirm that Vercel has deployed the API function.
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ ok: true, service: 'polity-api' });
+});
+
 // Middleware to authenticate JWT token
 function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];
