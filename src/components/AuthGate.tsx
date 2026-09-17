@@ -21,6 +21,10 @@ export const AuthGate: React.FC<AuthGateProps> = ({ onSuccess }) => {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(isLogin ? { email, password } : { username, email, password })
       });
+      const contentType = response.headers.get('content-type') || '';
+      if (!contentType.includes('application/json')) {
+        throw new Error(`Login service is unavailable (HTTP ${response.status}). Please try again after the deployment finishes.`);
+      }
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || 'Unable to continue.');
       onSuccess(data.token, data.username, data.email);
