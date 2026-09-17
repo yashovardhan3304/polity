@@ -10,6 +10,8 @@ interface NavbarProps {
   streak: number;
   progressPercent: number;
   openLesson: (topic: string) => void;
+  currentUser: { username: string; email: string };
+  onLogout: () => void;
 }
 
 interface SearchResult {
@@ -26,6 +28,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   streak,
   progressPercent,
   openLesson,
+  currentUser,
+  onLogout,
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
@@ -263,6 +267,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="nav-progress-circle" style={{ '--progress-pct': `${progressPercent}%` } as React.CSSProperties}>
               <span className="progress-value">{progressPercent}%</span>
             </div>
+          </div>
+          <div className="nav-profile-badge">
+            <span className="username-text">{currentUser.username}</span>
+            <button className="logout-action-btn" onClick={onLogout}>Log out</button>
           </div>
           
         </div>

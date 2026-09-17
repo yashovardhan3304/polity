@@ -4,6 +4,7 @@ import { BookOpen, Award, Bookmark, Home } from 'lucide-react';
 // Import educational components
 import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
+import { AuthGate } from './components/AuthGate';
 import { Cockpit } from './components/Cockpit';
 import { ChapterList } from './components/ChapterList';
 import { LessonModal } from './components/LessonModal';
@@ -123,6 +124,12 @@ export const App: React.FC = () => {
   // Lesson Modal State
   const [activeLesson, setActiveLesson] = useState<string | null>(null);
 
+  const [currentUser, setCurrentUser] = useState<{ username: string; email: string } | null>(() => {
+    const savedUser = localStorage.getItem('polity_user');
+    return savedUser ? JSON.parse(savedUser) : null;
+  });
+  const [token, setToken] = useState<string | null>(() => localStorage.getItem('polity_auth_token'));
+
   // Centralized State with localStorage Persistence
   const [completedTopics, setCompletedTopics] = useState<string[]>(() => {
     const saved = localStorage.getItem('polity_completed_topics');
@@ -156,7 +163,7 @@ export const App: React.FC = () => {
 
   const [streak, setStreak] = useState<number>(() => {
     const saved = localStorage.getItem('polity_streak');
-    return saved ? parseInt(saved, 10) : 3; // Default starting streak for demo
+    return saved ? parseInt(saved, 10) : 0;
   });
 
   const [quizPoints, setQuizPoints] = useState<number>(() => {
@@ -168,6 +175,61 @@ export const App: React.FC = () => {
     const saved = localStorage.getItem('polity_weak_topics');
     return saved ? JSON.parse(saved) : ["Fundamental Rights", "Emergency"]; // Default starting weak topics
   });
+
+  useEffect(() => {
+    if (!token) return;
+    fetch('/api/progress', { headers: { Authorization: `Bearer ${token}` } })
+      .then(async response => {
+        if (response.status === 401 || response.status === 403) {
+          throw new Error('Your session has expired.');
+        }
+        if (!response.ok) throw new Error('Unable to load your dashboard.');
+        return response.json();
+      })
+      .then(data => {
+        setCompletedTopics(data.completedTopics || []);
+        setSavedLessons(data.savedLessons || []);
+        setSavedArticles(data.savedArticles || []);
+        setSavedTraps(data.savedTraps || []);
+        setSavedCards(data.savedCards || []);
+        setMasteredCards(data.masteredCards || []);
+        setStreak(data.streak || 0);
+        setQuizPoints(data.quizPoints || 0);
+        setWeakTopics(data.weakTopics || []);
+      })
+      .catch(() => handleLogout());
+  }, [token]);
+
+  useEffect(() => {
+    if (!token) return;
+    const timer = window.setTimeout(async () => {
+      const response = await fetch('/api/progress', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ completedTopics, savedLessons, savedArticles, savedTraps, savedCards, masteredCards, quizPoints, weakTopics })
+      });
+      if (response.ok) {
+        const updated = await response.json();
+        setStreak(updated.streak || 0);
+      }
+    }, 800);
+    return () => window.clearTimeout(timer);
+  }, [completedTopics, savedLessons, savedArticles, savedTraps, savedCards, masteredCards, quizPoints, weakTopics, token]);
+
+  const handleLoginSuccess = (newToken: string, username: string, email: string) => {
+    const user = { username, email };
+    localStorage.setItem('polity_auth_token', newToken);
+    localStorage.setItem('polity_user', JSON.stringify(user));
+    setToken(newToken);
+    setCurrentUser(user);
+  };
+
+  function handleLogout() {
+    localStorage.removeItem('polity_auth_token');
+    localStorage.removeItem('polity_user');
+    setToken(null);
+    setCurrentUser(null);
+  }
 
   // Calculate total topic count
   const totalTopicsCount = chaptersData.reduce((acc, chap) => acc + chap.topics.length, 0);
@@ -386,6 +448,10 @@ export const App: React.FC = () => {
     }
   };
 
+  if (!token || !currentUser) {
+    return <div className="app-container"><ChalkDustCanvas /><AuthGate onSuccess={handleLoginSuccess} /></div>;
+  }
+
   return (
     <div className="app-container">
       <ChalkDustCanvas />
@@ -396,6 +462,8 @@ export const App: React.FC = () => {
         streak={streak}
         progressPercent={progressPercent}
         openLesson={setActiveLesson}
+        currentUser={currentUser}
+        onLogout={handleLogout}
       />
 
       <div className="main-layout">

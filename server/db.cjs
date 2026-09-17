@@ -127,9 +127,25 @@ async function saveUserProgress(userId, progressData) {
     const db = await readDbInternal();
     const index = db.progress.findIndex(p => p.userId === userId);
 
+    const existingProgress = index !== -1 ? db.progress[index] : null;
+    const today = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(new Date());
+    const yesterday = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(new Date(Date.now() - 24 * 60 * 60 * 1000));
+    const previousDate = existingProgress?.lastStudyDate;
+    const streak = previousDate === today
+      ? (existingProgress?.streak || 1)
+      : previousDate === yesterday
+        ? (existingProgress?.streak || 0) + 1
+        : 1;
+
     const updatedProgress = {
       ...progressData,
       userId,
+      streak,
+      lastStudyDate: today,
       updatedAt: new Date().toISOString()
     };
 

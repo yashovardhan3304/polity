@@ -17,7 +17,7 @@ function getLocalData() {
     const data = fs.readFileSync(DATA_FILE, 'utf8');
     return JSON.parse(data);
   } catch {
-    return { users: [] };
+    return { users: [], progress: [] };
   }
 }
 
@@ -102,6 +102,69 @@ async function createUser(username, email, passwordHash) {
   return { id: result.insertedId.toString(), ...newUser };
 }
 
+function studyDate(date = new Date()) {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(date);
+}
+
+function emptyProgress(userId) {
+  return {
+    userId,
+    completedTopics: [], savedLessons: [], savedArticles: [], savedTraps: [],
+    savedCards: [], masteredCards: [], streak: 0, quizPoints: 0, weakTopics: [],
+    lastStudyDate: null, updatedAt: new Date().toISOString()
+  };
+}
+
+async function getUserProgress(userId) {
+  const database = await connectDB();
+  if (!database) {
+    const data = getLocalData();
+    data.progress ||= [];
+    let progress = data.progress.find(item => item.userId === userId);
+    if (!progress) {
+      progress = emptyProgress(userId);
+      data.progress.push(progress);
+      saveLocalData(data);
+    }
+    return progress;
+  }
+
+  const progressCollection = database.collection('progress');
+  const progress = await progressCollection.findOne({ userId });
+  if (progress) return progress;
+  const initialProgress = emptyProgress(userId);
+  await progressCollection.insertOne(initialProgress);
+  return initialProgress;
+}
+
+async function saveUserProgress(userId, progressData) {
+  const database = await connectDB();
+  const today = studyDate();
+  const yesterday = studyDate(new Date(Date.now() - 24 * 60 * 60 * 1000));
+
+  if (!database) {
+    const data = getLocalData();
+    data.progress ||= [];
+    const index = data.progress.findIndex(item => item.userId === userId);
+    const existing = index === -1 ? emptyProgress(userId) : data.progress[index];
+    const streak = existing.lastStudyDate === today ? existing.streak : existing.lastStudyDate === yesterday ? existing.streak + 1 : 1;
+    const updated = { ...existing, ...progressData, userId, streak, lastStudyDate: today, updatedAt: new Date().toISOString() };
+    if (index === -1) data.progress.push(updated); else data.progress[index] = updated;
+    saveLocalData(data);
+    return updated;
+  }
+
+  const progressCollection = database.collection('progress');
+  const existing = await progressCollection.findOne({ userId });
+  const streak = existing?.lastStudyDate === today ? existing.streak : existing?.lastStudyDate === yesterday ? existing.streak + 1 : 1;
+  const updated = { ...(existing || emptyProgress(userId)), ...progressData, userId, streak, lastStudyDate: today, updatedAt: new Date().toISOString() };
+  delete updated._id;
+  await progressCollection.updateOne({ userId }, { $set: updated }, { upsert: true });
+  return updated;
+}
+
 async function updateUser(userId, updates) {
   const database = await connectDB();
 
@@ -130,5 +193,7 @@ module.exports = {
   getUserByEmail,
   getUserById,
   createUser,
-  updateUser
+  updateUser,
+  getUserProgress,
+  saveUserProgress
 };

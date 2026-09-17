@@ -3,7 +3,9 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const path = require('path');
-const db = require('./db.cjs');
+// Local JSON is useful for development; Vercel uses MongoDB so each account's
+// progress is durable across serverless function invocations.
+const db = process.env.MONGODB_URI ? require('./db-mongodb.cjs') : require('./db.cjs');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
