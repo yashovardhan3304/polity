@@ -10,9 +10,6 @@ interface NavbarProps {
   streak: number;
   progressPercent: number;
   openLesson: (topic: string) => void;
-  currentUser: { username: string; email: string } | null;
-  onLoginClick: () => void;
-  onLogout: () => void;
 }
 
 interface SearchResult {
@@ -29,9 +26,6 @@ export const Navbar: React.FC<NavbarProps> = ({
   streak,
   progressPercent,
   openLesson,
-  currentUser,
-  onLoginClick,
-  onLogout
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
@@ -271,18 +265,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
           </div>
           
-          {currentUser ? (
-            <div className="nav-profile-badge">
-              <span className="username-text">👤 {currentUser.username}</span>
-              <button className="logout-action-btn" onClick={onLogout}>
-                Log Out
-              </button>
-            </div>
-          ) : (
-            <button className="btn-secondary navbar-action-btn login-action-btn" onClick={onLoginClick}>
-              Log In
-            </button>
-          )}
         </div>
       </div>
 

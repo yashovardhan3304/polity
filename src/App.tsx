@@ -4,8 +4,6 @@ import { BookOpen, Award, Bookmark, Home } from 'lucide-react';
 // Import educational components
 import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
-import { AuthModal } from './components/AuthModal';
-import { AuthGate } from './components/AuthGate';
 import { Cockpit } from './components/Cockpit';
 import { ChapterList } from './components/ChapterList';
 import { LessonModal } from './components/LessonModal';
@@ -125,16 +123,6 @@ export const App: React.FC = () => {
   // Lesson Modal State
   const [activeLesson, setActiveLesson] = useState<string | null>(null);
 
-  // Authentication & Sync States
-  const [currentUser, setCurrentUser] = useState<{ username: string; email: string } | null>(() => {
-    const savedUser = localStorage.getItem('polity_user');
-    return savedUser ? JSON.parse(savedUser) : null;
-  });
-  const [token, setToken] = useState<string | null>(() => {
-    return localStorage.getItem('polity_auth_token');
-  });
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
-
   // Centralized State with localStorage Persistence
   const [completedTopics, setCompletedTopics] = useState<string[]>(() => {
     const saved = localStorage.getItem('polity_completed_topics');
@@ -180,146 +168,6 @@ export const App: React.FC = () => {
     const saved = localStorage.getItem('polity_weak_topics');
     return saved ? JSON.parse(saved) : ["Fundamental Rights", "Emergency"]; // Default starting weak topics
   });
-
-  // Load progress from server on mount if logged in
-  useEffect(() => {
-    if (!token) return;
-
-    const fetchProgress = async () => {
-      try {
-        const res = await fetch('/api/progress', {
-          headers: {
-            'Authorization': `Bearer ${token}`
-          }
-        });
-        if (res.ok) {
-          const data = await res.json();
-          // Overwrite local progress state with server data
-          setCompletedTopics(data.completedTopics || []);
-          setSavedLessons(data.savedLessons || []);
-          setSavedArticles(data.savedArticles || []);
-          setSavedTraps(data.savedTraps || []);
-          setSavedCards(data.savedCards || []);
-          setMasteredCards(data.masteredCards || []);
-          setStreak(data.streak ?? 1);
-          setQuizPoints(data.quizPoints ?? 0);
-          setWeakTopics(data.weakTopics || []);
-        } else if (res.status === 401 || res.status === 403) {
-          // Token expired or invalid, log out
-          handleLogout();
-        }
-      } catch (err) {
-        console.error("Failed to fetch user progress:", err);
-      }
-    };
-
-    fetchProgress();
-  }, [token]);
-
-  // Sync state to server whenever stats change (debounced)
-  useEffect(() => {
-    if (!token) return;
-
-    const syncData = async () => {
-      try {
-        await fetch('/api/progress', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}`
-          },
-          body: JSON.stringify({
-            completedTopics,
-            savedLessons,
-            savedArticles,
-            savedTraps,
-            savedCards,
-            masteredCards,
-            streak,
-            quizPoints,
-            weakTopics
-          })
-        });
-      } catch (err) {
-        console.error("Failed to sync progress to server:", err);
-      }
-    };
-
-    const timeoutId = setTimeout(syncData, 1000);
-    return () => clearTimeout(timeoutId);
-  }, [completedTopics, savedLessons, savedArticles, savedTraps, savedCards, masteredCards, streak, quizPoints, weakTopics, token]);
-
-  const handleLoginSuccess = async (newToken: string, newUsername: string, newEmail: string) => {
-    localStorage.setItem('polity_auth_token', newToken);
-    const userObj = { username: newUsername, email: newEmail };
-    localStorage.setItem('polity_user', JSON.stringify(userObj));
-    setToken(newToken);
-    setCurrentUser(userObj);
-
-    // Initial sync merge
-    try {
-      const res = await fetch('/api/progress', {
-        headers: {
-          'Authorization': `Bearer ${newToken}`
-        }
-      });
-      if (res.ok) {
-        const serverProgress = await res.json();
-        const hasServerProgress = (serverProgress.completedTopics && serverProgress.completedTopics.length > 0) || (serverProgress.quizPoints && serverProgress.quizPoints > 0);
-
-        if (hasServerProgress) {
-          // Server progress takes priority, update local state
-          setCompletedTopics(serverProgress.completedTopics || []);
-          setSavedLessons(serverProgress.savedLessons || []);
-          setSavedArticles(serverProgress.savedArticles || []);
-          setSavedTraps(serverProgress.savedTraps || []);
-          setSavedCards(serverProgress.savedCards || []);
-          setMasteredCards(serverProgress.masteredCards || []);
-          setStreak(serverProgress.streak ?? 1);
-          setQuizPoints(serverProgress.quizPoints ?? 0);
-          setWeakTopics(serverProgress.weakTopics || []);
-        } else {
-          // Server is empty, upload local progress immediately
-          await fetch('/api/progress', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': `Bearer ${newToken}`
-            },
-            body: JSON.stringify({
-              completedTopics,
-              savedLessons,
-              savedArticles,
-              savedTraps,
-              savedCards,
-              masteredCards,
-              streak,
-              quizPoints,
-              weakTopics
-            })
-          });
-        }
-      }
-    } catch (err) {
-      console.error("Sync error during login:", err);
-    }
-  };
-
-  const handleLogout = () => {
-    localStorage.removeItem('polity_auth_token');
-    localStorage.removeItem('polity_user');
-    setToken(null);
-    setCurrentUser(null);
-    setCompletedTopics([]);
-    setSavedLessons([]);
-    setSavedArticles([]);
-    setSavedTraps([]);
-    setSavedCards([]);
-    setMasteredCards([]);
-    setStreak(1);
-    setQuizPoints(0);
-    setWeakTopics([]);
-  };
 
   // Calculate total topic count
   const totalTopicsCount = chaptersData.reduce((acc, chap) => acc + chap.topics.length, 0);
@@ -431,7 +279,7 @@ export const App: React.FC = () => {
   };
 
   // Reset progress handler
-  const resetProgress = async () => {
+  const resetProgress = () => {
     if (window.confirm("Are you sure you want to reset all your study progress?")) {
       setCompletedTopics([]);
       setSavedLessons([]);
@@ -443,38 +291,7 @@ export const App: React.FC = () => {
       setQuizPoints(0);
       setWeakTopics([]);
       
-      if (token) {
-        try {
-          await fetch('/api/progress', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': `Bearer ${token}`
-            },
-            body: JSON.stringify({
-              completedTopics: [],
-              savedLessons: [],
-              savedArticles: [],
-              savedTraps: [],
-              savedCards: [],
-              masteredCards: [],
-              streak: 1,
-              quizPoints: 0,
-              weakTopics: []
-            })
-          });
-        } catch (e) {
-          console.error("Failed to reset progress on server:", e);
-        }
-      }
-
-      const savedToken = localStorage.getItem('polity_auth_token');
-      const savedUser = localStorage.getItem('polity_user');
       localStorage.clear();
-      if (savedToken && savedUser) {
-        localStorage.setItem('polity_auth_token', savedToken);
-        localStorage.setItem('polity_user', savedUser);
-      }
       alert("Study cockpit reset completed successfully.");
     }
   };
@@ -569,15 +386,6 @@ export const App: React.FC = () => {
     }
   };
 
-  if (!token || !currentUser) {
-    return (
-      <div className="app-container">
-        <ChalkDustCanvas />
-        <AuthGate onSuccess={handleLoginSuccess} />
-      </div>
-    );
-  }
-
   return (
     <div className="app-container">
       <ChalkDustCanvas />
@@ -588,9 +396,6 @@ export const App: React.FC = () => {
         streak={streak}
         progressPercent={progressPercent}
         openLesson={setActiveLesson}
-        currentUser={currentUser}
-        onLoginClick={() => setIsAuthModalOpen(true)}
-        onLogout={handleLogout}
       />
 
       <div className="main-layout">
@@ -735,12 +540,6 @@ export const App: React.FC = () => {
         }
       `}</style>
 
-      {isAuthModalOpen && (
-        <AuthModal 
-          onClose={() => setIsAuthModalOpen(false)}
-          onSuccess={handleLoginSuccess}
-        />
-      )}
     </div>
   );
 };
